@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     23 Aug 2026 22:15 UTC
-# TOTAL:       27071
-# DOMAIN:      27059
+# UPDATED:     24 Aug 2026 22:19 UTC
+# TOTAL:       27073
+# DOMAIN:      27061
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -1877,6 +1877,7 @@ payload:
   - "DOMAIN-SUFFIX,api.moomoobull.com"
   - "DOMAIN-SUFFIX,api.news"
   - "DOMAIN-SUFFIX,api.palworldgame.com"
+  - "DOMAIN-SUFFIX,api.shuaiapi.com"
   - "DOMAIN-SUFFIX,api.viu.now.com"
   - "DOMAIN-SUFFIX,apiary.io"
   - "DOMAIN-SUFFIX,apiauto.ru"
@@ -25626,6 +25627,7 @@ payload:
   - "DOMAIN-SUFFIX,x3guide.com"
   - "DOMAIN-SUFFIX,x3vid.com"
   - "DOMAIN-SUFFIX,x6av.com"
+  - "DOMAIN-SUFFIX,x86.fr"
   - "DOMAIN-SUFFIX,x99av.com"
   - "DOMAIN-SUFFIX,xamarin.com"
   - "DOMAIN-SUFFIX,xandr.com"
