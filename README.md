@@ -75,7 +75,7 @@ https://raw.githubusercontent.com/akaspyrean/external/main/config/shadowrocket.c
 | ---- | ---------------------------------- | ---------------------------------- |
 | 直连   | [`direct.yaml`](rules/direct.yaml) | [`direct.list`](rules/direct.list) |
 | 代理   | [`proxy.yaml`](rules/proxy.yaml)   | [`proxy.list`](rules/proxy.list)   |
-| 人工智能 | [`ai.yaml`](rules/ai.yaml)         | [`ai.list`](rules/ai.list)         |
+| 智能 | [`ai.yaml`](rules/ai.yaml)         | [`ai.list`](rules/ai.list)         |
 | 影音   | [`media.yaml`](rules/media.yaml)   | [`media.list`](rules/media.list)   |
 | 广告   | [`ad.yaml`](rules/ad.yaml)         | [`ad.list`](rules/ad.list)         |
 
