@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     24 Aug 2026 22:19 UTC
-# TOTAL:       27073
-# DOMAIN:      27061
+# UPDATED:     27 Aug 2026 02:49 UTC
+# TOTAL:       27077
+# DOMAIN:      27065
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -800,6 +800,7 @@ payload:
   - "DOMAIN-SUFFIX,adguard.io"
   - "DOMAIN-SUFFIX,adguard.org"
   - "DOMAIN-SUFFIX,adguardaccount.com"
+  - "DOMAIN-SUFFIX,adguardaccount.net"
   - "DOMAIN-SUFFIX,adguardcdn.com"
   - "DOMAIN-SUFFIX,adguardvpn.com"
   - "DOMAIN-SUFFIX,adhelpnews.com"
@@ -1856,6 +1857,7 @@ payload:
   - "DOMAIN-SUFFIX,aodahl.com"
   - "DOMAIN-SUFFIX,aofriend.com"
   - "DOMAIN-SUFFIX,aokwholesale.net"
+  - "DOMAIN-SUFFIX,aolcdn.com"
   - "DOMAIN-SUFFIX,aomedia.org"
   - "DOMAIN-SUFFIX,aomiwang.com"
   - "DOMAIN-SUFFIX,aorus.com"
@@ -17855,6 +17857,7 @@ payload:
   - "DOMAIN-SUFFIX,ourshemales.com"
   - "DOMAIN-SUFFIX,oursteps.com.au"
   - "DOMAIN-SUFFIX,ourtv.hk"
+  - "DOMAIN-SUFFIX,ouryahoo.com"
   - "DOMAIN-SUFFIX,out-app-purchase.com"
   - "DOMAIN-SUFFIX,outbound.io"
   - "DOMAIN-SUFFIX,outdoorpublicsex.com"
@@ -26374,6 +26377,7 @@ payload:
   - "DOMAIN-SUFFIX,yahoodns.net"
   - "DOMAIN-SUFFIX,yahoofinance.com"
   - "DOMAIN-SUFFIX,yahoohealth.com"
+  - "DOMAIN-SUFFIX,yahooinc.com"
   - "DOMAIN-SUFFIX,yahoomusic.com"
   - "DOMAIN-SUFFIX,yahoosandbox.com"
   - "DOMAIN-SUFFIX,yahoosportsbook.com"
