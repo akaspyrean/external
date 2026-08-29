@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     28 Aug 2026 05:54 UTC
-# TOTAL:       27079
-# DOMAIN:      27067
+# UPDATED:     29 Aug 2026 03:27 UTC
+# TOTAL:       27081
+# DOMAIN:      27069
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -19831,6 +19831,7 @@ payload:
   - "DOMAIN-SUFFIX,relateiq.com"
   - "DOMAIN-SUFFIX,religionnews.com"
   - "DOMAIN-SUFFIX,remirepo.net"
+  - "DOMAIN-SUFFIX,remna.st"
   - "DOMAIN-SUFFIX,rencapbank.ru"
   - "DOMAIN-SUFFIX,renchead.com"
   - "DOMAIN-SUFFIX,rencredit.ru"
@@ -25419,6 +25420,7 @@ payload:
   - "DOMAIN-SUFFIX,wpvip.com"
   - "DOMAIN-SUFFIX,wrds-www.wharton.upenn.edu"
   - "DOMAIN-SUFFIX,wrenchead.com"
+  - "DOMAIN-SUFFIX,write.as"
   - "DOMAIN-SUFFIX,writesonic.com"
   - "DOMAIN-SUFFIX,ws-blau.com"
   - "DOMAIN-SUFFIX,ws-tcg.com"
