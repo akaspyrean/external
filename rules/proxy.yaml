@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     29 Aug 2026 03:27 UTC
-# TOTAL:       27081
-# DOMAIN:      27069
+# UPDATED:     01 Sep 2026 00:56 UTC
+# TOTAL:       27082
+# DOMAIN:      27070
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -10028,6 +10028,7 @@ payload:
   - "DOMAIN-SUFFIX,getlantern.org"
   - "DOMAIN-SUFFIX,getmalus.com"
   - "DOMAIN-SUFFIX,getmdl.io"
+  - "DOMAIN-SUFFIX,getmonero.org"
   - "DOMAIN-SUFFIX,getnews.jp"
   - "DOMAIN-SUFFIX,getoutline.org"
   - "DOMAIN-SUFFIX,getpaint.net"

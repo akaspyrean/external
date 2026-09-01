@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Direct
-# UPDATED:     31 Aug 2026 00:09 UTC
-# TOTAL:       111287
-# DOMAIN:      111282
+# UPDATED:     01 Sep 2026 00:56 UTC
+# TOTAL:       111291
+# DOMAIN:      111286
 # IP-RELATED:  5
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -3107,6 +3107,7 @@ payload:
   - "DOMAIN-SUFFIX,25fe391eb68e3f9c.com"
   - "DOMAIN-SUFFIX,25game.com"
   - "DOMAIN-SUFFIX,25ku.com"
+  - "DOMAIN-SUFFIX,25mao.com"
   - "DOMAIN-SUFFIX,25nc.com"
   - "DOMAIN-SUFFIX,25pp.com"
   - "DOMAIN-SUFFIX,25q7ekcc67.com"
@@ -42147,6 +42148,7 @@ payload:
   - "DOMAIN-SUFFIX,gzjkfk.com"
   - "DOMAIN-SUFFIX,gzjkfund.com"
   - "DOMAIN-SUFFIX,gzjkjl.com"
+  - "DOMAIN-SUFFIX,gzjkoa.com"
   - "DOMAIN-SUFFIX,gzjkqh.com"
   - "DOMAIN-SUFFIX,gzjkyljt.com"
   - "DOMAIN-SUFFIX,gzjlp.com"
@@ -43102,6 +43104,7 @@ payload:
   - "DOMAIN-SUFFIX,hanpupharm.com"
   - "DOMAIN-SUFFIX,hanqigroup.com"
   - "DOMAIN-SUFFIX,hanqinghb.com"
+  - "DOMAIN-SUFFIX,hanqiuming888.com"
   - "DOMAIN-SUFFIX,hanqunfeng.com"
   - "DOMAIN-SUFFIX,hans-ad.com"
   - "DOMAIN-SUFFIX,hanschen.site"
@@ -91461,6 +91464,7 @@ payload:
   - "DOMAIN-SUFFIX,under-5.shop"
   - "DOMAIN-SUFFIX,underfill.cc"
   - "DOMAIN-SUFFIX,uneed.com"
+  - "DOMAIN-SUFFIX,uneedx.com"
   - "DOMAIN-SUFFIX,unfish.net"
   - "DOMAIN-SUFFIX,ungifts.com"
   - "DOMAIN-SUFFIX,uni-cent.com"
