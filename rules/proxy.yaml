@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     01 Sep 2026 00:56 UTC
-# TOTAL:       27082
-# DOMAIN:      27070
+# UPDATED:     01 Sep 2026 23:44 UTC
+# TOTAL:       27089
+# DOMAIN:      27077
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -3778,6 +3778,7 @@ payload:
   - "DOMAIN-SUFFIX,blackandstacked.com"
   - "DOMAIN-SUFFIX,blackboxgames.com"
   - "DOMAIN-SUFFIX,blacked.com"
+  - "DOMAIN-SUFFIX,blackedraw.com"
   - "DOMAIN-SUFFIX,blackfridaydrebeatsnew.com"
   - "DOMAIN-SUFFIX,blackfridaydrebeatsshop.com"
   - "DOMAIN-SUFFIX,blackhomeporn.com"
@@ -9848,6 +9849,8 @@ payload:
   - "DOMAIN-SUFFIX,gate.cc"
   - "DOMAIN-SUFFIX,gate.com"
   - "DOMAIN-SUFFIX,gate.io"
+  - "DOMAIN-SUFFIX,gate.tv"
+  - "DOMAIN-SUFFIX,gateapi.io"
   - "DOMAIN-SUFFIX,gatecoin.com"
   - "DOMAIN-SUFFIX,gatedata.org"
   - "DOMAIN-SUFFIX,gateimg.com"
@@ -15406,6 +15409,7 @@ payload:
   - "DOMAIN-SUFFIX,milftube.pro"
   - "DOMAIN-SUFFIX,milftugs.com"
   - "DOMAIN-SUFFIX,milfvr.com"
+  - "DOMAIN-SUFFIX,milfy.com"
   - "DOMAIN-SUFFIX,milfzr.com"
   - "DOMAIN-SUFFIX,miliav.com"
   - "DOMAIN-SUFFIX,milkmanbook.com"
@@ -21254,6 +21258,7 @@ payload:
   - "DOMAIN-SUFFIX,slashine.onl"
   - "DOMAIN-SUFFIX,slavbank.ru"
   - "DOMAIN-SUFFIX,slavicstar.com"
+  - "DOMAIN-SUFFIX,slayed.com"
   - "DOMAIN-SUFFIX,slc.tl"
   - "DOMAIN-SUFFIX,sldolls.com"
   - "DOMAIN-SUFFIX,sleazyfork.org"
@@ -23351,6 +23356,7 @@ payload:
   - "DOMAIN-SUFFIX,tusco.ru"
   - "DOMAIN-SUFFIX,tushy.com"
   - "DOMAIN-SUFFIX,tushycash.com"
+  - "DOMAIN-SUFFIX,tushyraw.com"
   - "DOMAIN-SUFFIX,tuta.com"
   - "DOMAIN-SUFFIX,tuta.io"
   - "DOMAIN-SUFFIX,tutamail.com"
@@ -24375,6 +24381,7 @@ payload:
   - "DOMAIN-SUFFIX,vivaxnxx.com"
   - "DOMAIN-SUFFIX,vivthomas.com"
   - "DOMAIN-SUFFIX,vixen.com"
+  - "DOMAIN-SUFFIX,vixengroup.com"
   - "DOMAIN-SUFFIX,vixvids.to"
   - "DOMAIN-SUFFIX,vjav.com"
   - "DOMAIN-SUFFIX,vjmedia.com.hk"
