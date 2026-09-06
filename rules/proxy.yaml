@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     05 Sep 2026 23:29 UTC
-# TOTAL:       27090
-# DOMAIN:      27078
+# UPDATED:     06 Sep 2026 23:24 UTC
+# TOTAL:       27096
+# DOMAIN:      27084
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -44,6 +44,8 @@ payload:
   - "DOMAIN-SUFFIX,119474.xyz"
   - "DOMAIN-SUFFIX,11jav.com"
   - "DOMAIN-SUFFIX,123-hp.com"
+  - "DOMAIN-SUFFIX,123av.com"
+  - "DOMAIN-SUFFIX,123av.me"
   - "DOMAIN-SUFFIX,123bin.cc"
   - "DOMAIN-SUFFIX,123dapp.com"
   - "DOMAIN-SUFFIX,123dappipad.com"
@@ -19992,6 +19994,7 @@ payload:
   - "DOMAIN-SUFFIX,roborecall.com"
   - "DOMAIN-SUFFIX,robotoffice.com"
   - "DOMAIN-SUFFIX,robustnessiskey.com"
+  - "DOMAIN-SUFFIX,roc-taiwan.org"
   - "DOMAIN-SUFFIX,rocket-inc.net"
   - "DOMAIN-SUFFIX,rocket.chat"
   - "DOMAIN-SUFFIX,rocketfishproducts.com"
@@ -20040,6 +20043,7 @@ payload:
   - "DOMAIN-SUFFIX,roudaosp.cc"
   - "DOMAIN-SUFFIX,roughebonysex.com"
   - "DOMAIN-SUFFIX,roughman.net"
+  - "DOMAIN-SUFFIX,roushuwo.com"
   - "DOMAIN-SUFFIX,routerboard.com"
   - "DOMAIN-SUFFIX,routledgehandbooks.com"
   - "DOMAIN-SUFFIX,rowblocks.com"
@@ -22289,6 +22293,7 @@ payload:
   - "DOMAIN-SUFFIX,taipeitimes.com"
   - "DOMAIN-SUFFIX,taisounds.com"
   - "DOMAIN-SUFFIX,taiwanadultexpo.com"
+  - "DOMAIN-SUFFIX,taiwanembassy.org"
   - "DOMAIN-SUFFIX,taiwanhot.net"
   - "DOMAIN-SUFFIX,taiwanjustice.net"
   - "DOMAIN-SUFFIX,taiwanncf.org.tw"
@@ -25443,6 +25448,7 @@ payload:
   - "DOMAIN-SUFFIX,wsjplus.com"
   - "DOMAIN-SUFFIX,wsjshop.com"
   - "DOMAIN-SUFFIX,wsjwine.com"
+  - "DOMAIN-SUFFIX,wtfpass.com"
   - "DOMAIN-SUFFIX,wtfpeople.com"
   - "DOMAIN-SUFFIX,wtmobile.com"
   - "DOMAIN-SUFFIX,wto.org"
