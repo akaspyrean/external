@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     06 Sep 2026 23:24 UTC
-# TOTAL:       27096
-# DOMAIN:      27084
+# UPDATED:     07 Sep 2026 23:54 UTC
+# TOTAL:       27097
+# DOMAIN:      27085
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -14095,6 +14095,7 @@ DOMAIN-SUFFIX,larsgeorge.com
 DOMAIN-SUFFIX,lasersawapp.com
 DOMAIN-SUFFIX,last.fm
 DOMAIN-SUFFIX,lastcombat.com
+DOMAIN-SUFFIX,lastfm-img.freetls.fastly.net
 DOMAIN-SUFFIX,lastfm.es
 DOMAIN-SUFFIX,lastfm.freetls.fastly.net
 DOMAIN-SUFFIX,lastpass.com
