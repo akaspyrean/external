@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Direct
-# UPDATED:     06 Sep 2026 23:24 UTC
-# TOTAL:       111126
-# DOMAIN:      111121
+# UPDATED:     09 Sep 2026 23:46 UTC
+# TOTAL:       111127
+# DOMAIN:      111122
 # IP-RELATED:  5
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -104996,6 +104996,7 @@ payload:
   - "DOMAIN-SUFFIX,yuanpanguoji.com"
   - "DOMAIN-SUFFIX,yuanqiao.net"
   - "DOMAIN-SUFFIX,yuanqiao.pw"
+  - "DOMAIN-SUFFIX,yuanqidesk.com"
   - "DOMAIN-SUFFIX,yuanqilt.com"
   - "DOMAIN-SUFFIX,yuanqingsh.com"
   - "DOMAIN-SUFFIX,yuanqisenlin.com"
