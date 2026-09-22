@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     22 Sep 2026 00:30 UTC
-# TOTAL:       27109
-# DOMAIN:      27097
+# UPDATED:     22 Sep 2026 23:57 UTC
+# TOTAL:       27111
+# DOMAIN:      27099
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -5483,6 +5483,7 @@ payload:
   - "DOMAIN-SUFFIX,chinesegay.org"
   - "DOMAIN-SUFFIX,chinesen.de"
   - "DOMAIN-SUFFIX,chinesenews.net.au"
+  - "DOMAIN-SUFFIX,chineseposters.net"
   - "DOMAIN-SUFFIX,chineseradioseattle.com"
   - "DOMAIN-SUFFIX,chinesespanking.com"
   - "DOMAIN-SUFFIX,chineseupress.com"
@@ -17155,6 +17156,7 @@ payload:
   - "DOMAIN-SUFFIX,nos.nl"
   - "DOMAIN-SUFFIX,notary-submissions-prod.s3-accelerate.amazonaws.com"
   - "DOMAIN-SUFFIX,notary-submissions-prod.s3.us-west-2.amazonaws.com"
+  - "DOMAIN-SUFFIX,note.com"
   - "DOMAIN-SUFFIX,notebooklm-pa.googleapis.com"
   - "DOMAIN-SUFFIX,notebooklm.googleapis.com"
   - "DOMAIN-SUFFIX,notegpt.io"
