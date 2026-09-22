@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     17 Sep 2026 00:00 UTC
-# TOTAL:       27103
-# DOMAIN:      27091
+# UPDATED:     22 Sep 2026 00:30 UTC
+# TOTAL:       27109
+# DOMAIN:      27097
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -5826,6 +5826,7 @@ payload:
   - "DOMAIN-SUFFIX,code.org"
   - "DOMAIN-SUFFIX,codeberg.org"
   - "DOMAIN-SUFFIX,codeberg.page"
+  - "DOMAIN-SUFFIX,codebuff.com"
   - "DOMAIN-SUFFIX,codecademy.com"
   - "DOMAIN-SUFFIX,codeforaliving.io"
   - "DOMAIN-SUFFIX,codeforces.com"
@@ -9053,11 +9054,13 @@ payload:
   - "DOMAIN-SUFFIX,fire-emblem-heroes.com"
   - "DOMAIN-SUFFIX,firearmsworld.net"
   - "DOMAIN-SUFFIX,firebase.com"
-  - "DOMAIN-SUFFIX,firebase.google.com"
+  - "DOMAIN-SUFFIX,firebase.dev"
   - "DOMAIN-SUFFIX,firebase.googleapis.com"
   - "DOMAIN-SUFFIX,firebase.io"
   - "DOMAIN-SUFFIX,firebaseapp.com"
   - "DOMAIN-SUFFIX,firebaseappcheck.googleapis.com"
+  - "DOMAIN-SUFFIX,firebaseappdistribution.googleapis.com"
+  - "DOMAIN-SUFFIX,firebaseapptesters.googleapis.com"
   - "DOMAIN-SUFFIX,firebasedynamiclinks-ipv4.googleapis.com"
   - "DOMAIN-SUFFIX,firebasedynamiclinks-ipv6.googleapis.com"
   - "DOMAIN-SUFFIX,firebasedynamiclinks.googleapis.com"
@@ -9069,6 +9072,7 @@ payload:
   - "DOMAIN-SUFFIX,firebaseperusertopics-pa.googleapis.com"
   - "DOMAIN-SUFFIX,firebaseremoteconfig.googleapis.com"
   - "DOMAIN-SUFFIX,fireemblemawakening.com"
+  - "DOMAIN-SUFFIX,firefox-portal-detection.com"
   - "DOMAIN-SUFFIX,firefox.com"
   - "DOMAIN-SUFFIX,firefox.hu"
   - "DOMAIN-SUFFIX,firefoxtweetmachine.com"
@@ -9487,6 +9491,7 @@ payload:
   - "DOMAIN-SUFFIX,freebrowser.org"
   - "DOMAIN-SUFFIX,freebs.com"
   - "DOMAIN-SUFFIX,freebsd.org"
+  - "DOMAIN-SUFFIX,freebuff.com"
   - "DOMAIN-SUFFIX,freecamsfan.com"
   - "DOMAIN-SUFFIX,freecartoons.biz"
   - "DOMAIN-SUFFIX,freechatnow.com"
@@ -22548,6 +22553,7 @@ payload:
   - "DOMAIN-SUFFIX,textnow.me"
   - "DOMAIN-SUFFIX,texttobuy.org"
   - "DOMAIN-SUFFIX,texture.com"
+  - "DOMAIN-SUFFIX,tfbnw.net"
   - "DOMAIN-SUFFIX,tfc-taiwan.org.tw"
   - "DOMAIN-SUFFIX,tferwq.com"
   - "DOMAIN-SUFFIX,tfhub.dev"
