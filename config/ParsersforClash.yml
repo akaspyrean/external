@@ -1,0 +1,221 @@
+```yaml
+parsers:
+  - reg: ^https?://.+
+    code: |
+      /**
+       * Mihomo / Clash 配置预处理器
+       *
+       * - 自动过滤无效节点
+       * - 自动测速优选
+       * - AI / 影音独立分流
+       * - 在线规则自动更新
+       */
+
+      module.exports.parse = async (raw, { yaml }) => {
+        const rawConfig = yaml.parse(raw);
+        const proxies = Array.isArray(rawConfig.proxies)
+          ? rawConfig.proxies
+          : [];
+
+        const allNames = [
+          ...new Set(
+            proxies
+              .map(proxy => proxy?.name)
+              .filter(name => typeof name === "string" && name.trim())
+          )
+        ];
+
+        if (!allNames.length) {
+          throw new Error("订阅中未发现代理节点");
+        }
+
+        // ── 过滤订阅中的流量、到期、公告等信息节点
+        const regTrash = /(剩余|到期|官网|套餐|流量|重置|公告|客服|群组|频道)/i;
+
+        const filteredNames = allNames.filter(
+          name => !regTrash.test(name)
+        );
+
+        // 避免因特殊节点命名导致全部被过滤
+        const usableNames = filteredNames.length
+          ? filteredNames
+          : allNames;
+
+        const testUrl =
+          "https://cp.cloudflare.com/generate_204";
+
+        const rulesBase =
+          "https://raw.githubusercontent.com/akaspyrean/external/main/rules";
+
+        // ── 在线规则：每日自动更新，并通过代理获取
+        const provider = name => ({
+          type: "http",
+          behavior: "classical",
+          format: "yaml",
+          url: `${rulesBase}/${name}.yaml`,
+          path: `./rules/${name}.yaml`,
+          interval: 86400,
+          proxy: "扶梯出行"
+        });
+
+        const config = {
+          "mixed-port": 7890,
+          "allow-lan": true,
+          "mode": "rule",
+          "log-level": "error",
+
+          "ipv6": false,
+
+          "find-process-mode": "strict",
+
+          // ── GEO 数据自动维护
+          "geodata-mode": true,
+          "geodata-loader": "standard",
+          "geo-auto-update": true,
+          "geo-update-interval": 24,
+
+          // ── 保留策略选择与 Fake-IP
+          "profile": {
+            "store-selected": true,
+            "store-fake-ip": true
+          },
+
+          // ── 流量嗅探
+          "sniffer": {
+            "enable": true,
+            "sniff": {
+              "HTTP": {
+                "ports": [80, "8080-8880"],
+                "override-destination": true
+              },
+              "TLS": {
+                "ports": [443, 8443]
+              },
+              "QUIC": {
+                "ports": [443, 8443]
+              }
+            }
+          },
+
+          "proxies": proxies,
+
+          // ── DNS
+          "dns": {
+            "enable": true,
+            "listen": "0.0.0.0:9053",
+            "ipv6": false,
+
+            "enhanced-mode": "fake-ip",
+            "fake-ip-range": "198.18.0.1/16",
+
+            "fake-ip-filter": [
+              "+.lan",
+              "+.local",
+              "+.home.arpa",
+              "localhost.ptlogin2.qq.com",
+              "+.msftconnecttest.com",
+              "+.msftncsi.com",
+              "*.n.n.srv.nintendo.net"
+            ],
+
+            "default-nameserver": [
+              "223.5.5.5",
+              "119.29.29.29"
+            ],
+
+            "nameserver": [
+              "https://dns.alidns.com/dns-query",
+              "https://doh.pub/dns-query"
+            ]
+          },
+
+          // ── 策略组
+          "proxy-groups": [
+            {
+              "name": "扶梯出行",
+              "type": "select",
+              "proxies": [
+                "自动优选",
+                "人工选择"
+              ]
+            },
+
+            {
+              "name": "人工智能",
+              "type": "select",
+              "proxies": [
+                "人工选择",
+                "自动优选"
+              ]
+            },
+
+            {
+              "name": "影音视听",
+              "type": "select",
+              "proxies": [
+                "人工选择",
+                "自动优选"
+              ]
+            },
+
+            {
+              "name": "自动优选",
+              "type": "url-test",
+              "url": testUrl,
+              "interval": 300,
+              "timeout": 5000,
+              "tolerance": 50,
+              "lazy": true,
+              "proxies": usableNames
+            },
+
+            {
+              "name": "人工选择",
+              "type": "select",
+              "proxies": usableNames
+            }
+          ],
+
+          // ── 在线规则
+          "rule-providers": {
+            "direct": provider("direct"),
+            "ad": provider("ad"),
+            "ai": provider("ai"),
+            "media": provider("media"),
+            "proxy": provider("proxy")
+          },
+
+          // ── 分流
+          "rules": [
+            "GEOSITE,private,DIRECT",
+
+            "IP-CIDR,127.0.0.0/8,DIRECT,no-resolve",
+            "IP-CIDR,10.0.0.0/8,DIRECT,no-resolve",
+            "IP-CIDR,172.16.0.0/12,DIRECT,no-resolve",
+            "IP-CIDR,192.168.0.0/16,DIRECT,no-resolve",
+            "IP-CIDR,100.64.0.0/10,DIRECT,no-resolve",
+
+            "RULE-SET,direct,DIRECT",
+            "RULE-SET,ad,REJECT",
+
+            // OneDrive 特殊处理
+            "PROCESS-NAME,OneDrive.exe,DIRECT",
+            "PROCESS-NAME,OneDrive,DIRECT",
+            "DOMAIN-SUFFIX,onedrive.live.com,扶梯出行",
+            "DOMAIN-SUFFIX,onedrive.com,DIRECT",
+            "DOMAIN-SUFFIX,sharepoint.com,DIRECT",
+
+            "RULE-SET,ai,人工智能",
+            "RULE-SET,media,影音视听",
+            "RULE-SET,proxy,扶梯出行",
+
+            "GEOSITE,cn,DIRECT",
+            "GEOIP,CN,DIRECT,no-resolve",
+
+            "MATCH,扶梯出行"
+          ]
+        };
+
+        return yaml.stringify(config);
+      };
+```

@@ -1,0 +1,29 @@
+{
+  "total": 356378,
+  "display": "356,378",
+  "updated": "2026-09-27T00:08:07+00:00",
+  "rules": {
+    "direct": {
+      "list": 111373,
+      "yaml": 111373
+    },
+    "proxy": {
+      "list": 27111,
+      "yaml": 27111
+    },
+    "ai": {
+      "list": 82,
+      "yaml": 82
+    },
+    "media": {
+      "list": 1578,
+      "yaml": 1578
+    },
+    "ad": {
+      "list": 216234,
+      "yaml": 216234
+    }
+  },
+  "formats_consistent": true,
+  "mismatches": {}
+}
