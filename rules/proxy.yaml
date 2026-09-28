@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     22 Sep 2026 23:57 UTC
-# TOTAL:       27111
-# DOMAIN:      27099
+# UPDATED:     28 Sep 2026 00:15 UTC
+# TOTAL:       27113
+# DOMAIN:      27101
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -4857,6 +4857,7 @@ payload:
   - "DOMAIN-SUFFIX,c-msedge.net"
   - "DOMAIN-SUFFIX,c-span.org"
   - "DOMAIN-SUFFIX,c-spanvideo.org"
+  - "DOMAIN-SUFFIX,c.go-mpulse.net"
   - "DOMAIN-SUFFIX,c.mi.com"
   - "DOMAIN-SUFFIX,c.ppy.sh"
   - "DOMAIN-SUFFIX,c0930.com"
@@ -23932,6 +23933,7 @@ payload:
   - "DOMAIN-SUFFIX,vaultify.info"
   - "DOMAIN-SUFFIX,vaultify.net"
   - "DOMAIN-SUFFIX,vaultproject.io"
+  - "DOMAIN-SUFFIX,vava8.com"
   - "DOMAIN-SUFFIX,vbcdn.com"
   - "DOMAIN-SUFFIX,vbcdn.net"
   - "DOMAIN-SUFFIX,vbejeyv.shop"
