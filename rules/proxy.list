@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     28 Sep 2026 00:15 UTC
-# TOTAL:       27113
-# DOMAIN:      27101
+# UPDATED:     30 Sep 2026 00:58 UTC
+# TOTAL:       27119
+# DOMAIN:      27107
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -9976,6 +9976,8 @@ DOMAIN-SUFFIX,gelbooru.wjcodes.com
 DOMAIN-SUFFIX,gemfire.net
 DOMAIN-SUFFIX,gemfury.com
 DOMAIN-SUFFIX,gemini.com
+DOMAIN-SUFFIX,geminiweb-pa.clients.google.com
+DOMAIN-SUFFIX,geminiweb-pa.clients6.google.com
 DOMAIN-SUFFIX,gen.lib.rus.ec
 DOMAIN-SUFFIX,gencraft.com
 DOMAIN-SUFFIX,gendai.net
@@ -11898,6 +11900,7 @@ DOMAIN-SUFFIX,huanyuju.com
 DOMAIN-SUFFIX,huaren.us
 DOMAIN-SUFFIX,huarenav.com
 DOMAIN-SUFFIX,huarenporn.com
+DOMAIN-SUFFIX,huarun.win
 DOMAIN-SUFFIX,huashangnews.com
 DOMAIN-SUFFIX,huashundg.com
 DOMAIN-SUFFIX,huati.cc
@@ -15209,6 +15212,7 @@ DOMAIN-SUFFIX,messytube.com
 DOMAIN-SUFFIX,met-nude.com
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,metaaivm.com
 DOMAIN-SUFFIX,metabora.io
 DOMAIN-SUFFIX,metabrainz.org
 DOMAIN-SUFFIX,metacloud.com
@@ -16229,6 +16233,7 @@ DOMAIN-SUFFIX,musashinobank.co.jp
 DOMAIN-SUFFIX,muscache.com
 DOMAIN-SUFFIX,muscdn.com
 DOMAIN-SUFFIX,musclegirlflix.com
+DOMAIN-SUFFIX,muse.ai
 DOMAIN-SUFFIX,muse.jhu.edu
 DOMAIN-SUFFIX,mushroomtrack.com
 DOMAIN-SUFFIX,mushymush.tv
@@ -17747,6 +17752,7 @@ DOMAIN-SUFFIX,openart.ai
 DOMAIN-SUFFIX,openbook.org.tw
 DOMAIN-SUFFIX,opencas.io
 DOMAIN-SUFFIX,openclaw.ai
+DOMAIN-SUFFIX,opencode.ai
 DOMAIN-SUFFIX,opencollective.com
 DOMAIN-SUFFIX,opencreate.org
 DOMAIN-SUFFIX,opencritic.com
