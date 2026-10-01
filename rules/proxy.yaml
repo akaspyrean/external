@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     30 Sep 2026 00:58 UTC
-# TOTAL:       27119
-# DOMAIN:      27107
+# UPDATED:     01 Oct 2026 01:01 UTC
+# TOTAL:       27120
+# DOMAIN:      27108
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -9748,6 +9748,7 @@ payload:
   - "DOMAIN-SUFFIX,fututrade.com"
   - "DOMAIN-SUFFIX,fututrustee.com"
   - "DOMAIN-SUFFIX,fuxporn.com"
+  - "DOMAIN-SUFFIX,fuyin116.com"
   - "DOMAIN-SUFFIX,fuzokudx.com"
   - "DOMAIN-SUFFIX,fw.cm"
   - "DOMAIN-SUFFIX,fxcm-chinese.com"
