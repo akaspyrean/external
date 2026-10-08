@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     07 Oct 2026 01:11 UTC
-# TOTAL:       27151
-# DOMAIN:      27139
+# UPDATED:     08 Oct 2026 01:31 UTC
+# TOTAL:       27155
+# DOMAIN:      27143
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -15165,6 +15165,7 @@ payload:
   - "DOMAIN-SUFFIX,mega.co.nz"
   - "DOMAIN-SUFFIX,mega.io"
   - "DOMAIN-SUFFIX,mega.nz"
+  - "DOMAIN-SUFFIX,megaad.nz"
   - "DOMAIN-SUFFIX,megacamz.com"
   - "DOMAIN-SUFFIX,megaeth.com"
   - "DOMAIN-SUFFIX,megafilmporno.com"
@@ -15175,11 +15176,13 @@ payload:
   - "DOMAIN-SUFFIX,megamarket.ru"
   - "DOMAIN-SUFFIX,megamarket.tech"
   - "DOMAIN-SUFFIX,megamon.co.kr"
+  - "DOMAIN-SUFFIX,megapay.nz"
   - "DOMAIN-SUFFIX,megaphone.fm"
   - "DOMAIN-SUFFIX,megapornfreehd.com"
   - "DOMAIN-SUFFIX,megaporno.com.br"
   - "DOMAIN-SUFFIX,megapornpics.com"
   - "DOMAIN-SUFFIX,megaproxy.com"
+  - "DOMAIN-SUFFIX,megas4.com"
   - "DOMAIN-SUFFIX,megasrv.de"
   - "DOMAIN-SUFFIX,megatitsminka.com"
   - "DOMAIN-SUFFIX,megogo.net"
@@ -23196,6 +23199,7 @@ payload:
   - "DOMAIN-SUFFIX,transangels.com"
   - "DOMAIN-SUFFIX,transarmuito.com"
   - "DOMAIN-SUFFIX,transcamslive.com"
+  - "DOMAIN-SUFFIX,transfer.it"
   - "DOMAIN-SUFFIX,transferwise.com"
   - "DOMAIN-SUFFIX,translatetheweb.com"
   - "DOMAIN-SUFFIX,translatewiki.net"
