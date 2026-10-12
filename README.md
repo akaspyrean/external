@@ -18,7 +18,7 @@ flowchart TB
     A --> C[在线规则]
     A --> B[节点选择]
     C --> E[规则匹配]
-    B --> D[自动优选 / 人工选择]
+    B --> D[自动优选 / 人工优选]
     E --> G[直连 / 拦截]
     E --> F[分类代理]
     D --> F
@@ -91,7 +91,7 @@ flowchart TB
 - ✅ DNS over HTTPS (阿里/公共 DoH + 备用 8.8.8.8/1.1.1.1)
 - ✅ 系统绕过 / TUN 排除路由 (私有网段、Apple/微软连通性检测)
 - ✅ 自动测速组 (排除信息节点正则)
-- ✅ 人工选择组 (同理排除信息节点)
+- ✅ 人工优选组 (同理排除信息节点)
 - ✅ 在线规则集自动更新 (每日)
 - ✅ OneDrive 特殊分流处理
 
@@ -144,7 +144,7 @@ flowchart TB
 
 ```
 自动优选    → url-test，自动测速选择最优节点
-人工选择    → select，手动选择节点
+人工优选    → select，手动选择节点
 ```
 
 > **设计原则**：`DIRECT` 仅由规则层控制，**不进入代理策略组**，避免直连流量被误代理。
@@ -156,20 +156,20 @@ flowchart TB
 proxy-groups:
   - name: 扶梯出行
     type: select
-    proxies: [自动优选, 人工选择]
+    proxies: [自动优选, 人工优选]
   - name: 人工智能
     type: select
-    proxies: [人工选择, 自动优选]
+    proxies: [人工优选, 自动优选]
   - name: 影音视听
     type: select
-    proxies: [人工选择, 自动优选]
+    proxies: [人工优选, 自动优选]
   - name: 自动优选
     type: url-test
     url: https://cp.cloudflare.com/generate_204
     interval: 300
     tolerance: 50
     proxies: [有效节点名列表]
-  - name: 人工选择
+  - name: 人工优选
     type: select
     proxies: [有效节点名列表]
 ```
