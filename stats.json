@@ -1,11 +1,11 @@
 {
-  "total": 355482,
-  "display": "355,482",
-  "updated": "2026-10-12T23:09:13+00:00",
+  "total": 357545,
+  "display": "357,545",
+  "updated": "2026-10-13T02:48:39+00:00",
   "rules": {
     "direct": {
-      "list": 110889,
-      "yaml": 110889
+      "list": 110890,
+      "yaml": 110890
     },
     "proxy": {
       "list": 27244,
@@ -20,8 +20,8 @@
       "yaml": 1578
     },
     "ad": {
-      "list": 215689,
-      "yaml": 215689
+      "list": 217751,
+      "yaml": 217751
     }
   },
   "formats_consistent": true,
