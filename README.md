@@ -69,15 +69,15 @@ External 提供 **两套配置文件** 与 **五套同步规则集**，覆盖直
 
 ## 规则集
 
-双格式同步输出，同一规则源生成，保持完全一致。总计 ![总计](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.display&label=条规则&style=flat-square&color=transparent) (stats.json 每日自动更新)
+双格式同步输出，同一规则源生成，保持完全一致。总计 ![总计](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.display&label=条规则&style=flat-square&labelColor=transparent&color=transparent) (stats.json 每日自动更新)
 
 | 类型 | YAML (Clash/Mihomo) | LIST (Shadowrocket/文本) | 规则数 | 说明 |
 | --- | --- | --- | ---: | --- |
-| **直连** | [`rules/direct.yaml`](rules/direct.yaml) | [`rules/direct.list`](rules/direct.list) | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.rules.direct.yaml&label=&style=flat-square&color=transparent) | 国内域名/IP、私有网段、常用服务 |
-| **代理** | [`rules/proxy.yaml`](rules/proxy.yaml) | [`rules/proxy.list`](rules/proxy.list) | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.rules.proxy.yaml&label=&style=flat-square&color=transparent) | 需代理访问的域名/IP |
-| **智能** | [`rules/ai.yaml`](rules/ai.yaml) | [`rules/ai.list`](rules/ai.list) | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.rules.ai.yaml&label=&style=flat-square&color=transparent) | AI 服务相关域名 |
-| **影音** | [`rules/media.yaml`](rules/media.yaml) | [`rules/media.list`](rules/media.list) | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.rules.media.yaml&label=&style=flat-square&color=transparent) | 视频/音乐/流媒体域名 |
-| **广告** | [`rules/ad.yaml`](rules/ad.yaml) | [`rules/ad.list`](rules/ad.list) | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.rules.ad.yaml&label=&style=flat-square&color=transparent) | 广告/追踪/统计域名拦截 |
+| **直连** | [`rules/direct.yaml`](rules/direct.yaml) | [`rules/direct.list`](rules/direct.list) | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.rules.direct.yaml&label=&style=flat-square&labelColor=transparent&color=transparent) | 国内域名/IP、私有网段、常用服务 |
+| **代理** | [`rules/proxy.yaml`](rules/proxy.yaml) | [`rules/proxy.list`](rules/proxy.list) | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.rules.proxy.yaml&label=&style=flat-square&labelColor=transparent&color=transparent) | 需代理访问的域名/IP |
+| **智能** | [`rules/ai.yaml`](rules/ai.yaml) | [`rules/ai.list`](rules/ai.list) | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.rules.ai.yaml&label=&style=flat-square&labelColor=transparent&color=transparent) | AI 服务相关域名 |
+| **影音** | [`rules/media.yaml`](rules/media.yaml) | [`rules/media.list`](rules/media.list) | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.rules.media.yaml&label=&style=flat-square&labelColor=transparent&color=transparent) | 视频/音乐/流媒体域名 |
+| **广告** | [`rules/ad.yaml`](rules/ad.yaml) | [`rules/ad.list`](rules/ad.list) | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.rules.ad.yaml&label=&style=flat-square&labelColor=transparent&color=transparent) | 广告/追踪/统计域名拦截 |
 
 ---
 
