@@ -115,38 +115,22 @@ flowchart TB
 
 **总计：![总计](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.display&label=&color=2E7D32&labelColor=15171B&style=flat-square) 条规则** ([stats.json](stats.json) 每日自动更新)
 
-### 规则来源
-- **直连**：MetaCubeX/meta-rules-dat (geoip-cn, geosite-cn) + 手工维护
-- **代理**：社区列表 + 手工筛选
-- **AI/影音**：官方域名 + 流行服务收集
-- **广告**：EasyList、EasyPrivacy、反广告联盟等多源聚合去重
-
 ---
 
 ## 分流策略
 
 ### 规则匹配顺序
 
-```mermaid
-flowchart TD
-    REQ[请求进入] --> D{命中直连规则?}
-    D -- 是 --> DIRECT[DIRECT 直连]
-    D -- 否 --> AD{命中广告规则?}
-    AD -- 是 --> REJECT[REJECT 拦截]
-    AD -- 否 --> AI{命中 AI 规则?}
-    AI -- 是 --> AIG[人工智能组]
-    AI -- 否 --> M{命中影音规则?}
-    M -- 是 --> MED[影音视听组]
-    M -- 否 --> P{命中代理规则?}
-    P -- 是 --> LAD[扶梯出行组]
-    P -- 否 --> DEF[扶梯出行组 (兜底)]
+| 顺序 | 规则集 | 动作 | 目标策略组 |
+| --- | --- | --- | --- |
+| 1 | **直连** | 放行 | `DIRECT` |
+| 2 | **广告** | 拦截 | `REJECT` |
+| 3 | **智能 (AI)** | 代理 | `人工智能` |
+| 4 | **影音** | 代理 | `影音视听` |
+| 5 | **代理** | 代理 | `扶梯出行` |
+| 6 | **未匹配** | 代理 | `扶梯出行` (兜底) |
 
-    classDef brand fill:#2E7D32,stroke:#1B5E20,color:#FFFFFF
-    classDef soft fill:#E8F5E9,stroke:#2E7D32,color:#15171B
-    classDef act fill:#FFF3E0,stroke:#F57C00,color:#E65100
-    class REQ,DIRECT,REJECT,AIG,MED,LAD,DEF soft
-    class D,AD,AI,M,P brand
-```
+> **设计原则**：`DIRECT` 仅由规则层控制，**不进入代理策略组**，避免直连流量被误代理。
 
 ### 代理策略组 (仅两个核心组)
 
