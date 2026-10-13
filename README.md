@@ -69,7 +69,7 @@ External 提供 **两套配置文件** 与 **五套同步规则集**，覆盖直
 
 ## 规则集
 
-双格式同步输出，同一规则源生成，保持完全一致。总计 ![总计](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.display&label=条规则&style=flat-square&labelColor=transparent&color=transparent) (stats.json 每日自动更新)
+双格式同步输出，同一规则源生成，保持完全一致。
 
 | 类型 | YAML (Clash/Mihomo) | LIST (Shadowrocket/文本) | 规则数 | 说明 |
 | --- | --- | --- | ---: | --- |
