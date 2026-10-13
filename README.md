@@ -23,40 +23,6 @@
 
 External 提供 **两套配置文件** 与 **五套同步规则集**，覆盖直连、代理、广告拦截、AI 服务、影音流媒体五大分流场景。
 
-```mermaid
-flowchart TB
-    subgraph Client[客户端层]
-        CF[Clash / Mihomo<br/>Parser 预处理]
-        SR[Shadowrocket<br/>远程配置]
-    end
-    subgraph Config[配置层]
-        P[ParsersforClash.yml]
-        S[shadowrocket.conf]
-    end
-    subgraph Rules[规则层<br/>双格式同步输出]
-        D[直连 11万+]
-        X[代理 2.7万+]
-        AD[广告 21万+]
-        AI[智能 82]
-        M[影音 1.5千+]
-    end
-    subgraph Core[内核层]
-        MH[Mihomo / Clash.Meta]
-    end
-
-    CF --> P
-    SR --> S
-    P --> Rules
-    S --> Rules
-    Rules --> MH
-
-    classDef brand fill:#2E7D32,stroke:#1B5E20,color:#FFFFFF
-    classDef soft fill:#E8F5E9,stroke:#2E7D32,color:#15171B
-    class CF,SR,P,S brand
-    class D,X,AD,AI,M,Rules soft
-    class MH brand
-```
-
 | 特性 | 说明 |
 | --- | --- |
 | **零侵入** | Parser 模式不修改原订阅，更新订阅即自动应用分流 |
@@ -107,13 +73,13 @@ flowchart TB
 
 | 类型 | YAML (Clash/Mihomo) | LIST (Shadowrocket/文本) | 规则数 (动态) | 说明 |
 | --- | --- | --- | ---: | --- |
-| **直连** | [`rules/direct.yaml`](rules/direct.yaml) | [`rules/direct.list`](rules/direct.list) | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.rules.direct.yaml&label=&color=2E7D32&labelColor=15171B&style=flat-square) | 国内域名/IP、私有网段、常用服务 |
-| **代理** | [`rules/proxy.yaml`](rules/proxy.yaml) | [`rules/proxy.list`](rules/proxy.list) | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.rules.proxy.yaml&label=&color=2E7D32&labelColor=15171B&style=flat-square) | 需代理访问的域名/IP |
-| **智能** | [`rules/ai.yaml`](rules/ai.yaml) | [`rules/ai.list`](rules/ai.list) | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.rules.ai.yaml&label=&color=2E7D32&labelColor=15171B&style=flat-square) | AI 服务相关域名 |
-| **影音** | [`rules/media.yaml`](rules/media.yaml) | [`rules/media.list`](rules/media.list) | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.rules.media.yaml&label=&color=2E7D32&labelColor=15171B&style=flat-square) | 视频/音乐/流媒体域名 |
-| **广告** | [`rules/ad.yaml`](rules/ad.yaml) | [`rules/ad.list`](rules/ad.list) | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.rules.ad.yaml&label=&color=2E7D32&labelColor=15171B&style=flat-square) | 广告/追踪/统计域名拦截 |
+| **直连** | [`rules/direct.yaml`](rules/direct.yaml) | [`rules/direct.list`](rules/direct.list) | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.rules.direct.yaml&label=&style=flat-square&color=transparent) | 国内域名/IP、私有网段、常用服务 |
+| **代理** | [`rules/proxy.yaml`](rules/proxy.yaml) | [`rules/proxy.list`](rules/proxy.list) | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.rules.proxy.yaml&label=&style=flat-square&color=transparent) | 需代理访问的域名/IP |
+| **智能** | [`rules/ai.yaml`](rules/ai.yaml) | [`rules/ai.list`](rules/ai.list) | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.rules.ai.yaml&label=&style=flat-square&color=transparent) | AI 服务相关域名 |
+| **影音** | [`rules/media.yaml`](rules/media.yaml) | [`rules/media.list`](rules/media.list) | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.rules.media.yaml&label=&style=flat-square&color=transparent) | 视频/音乐/流媒体域名 |
+| **广告** | [`rules/ad.yaml`](rules/ad.yaml) | [`rules/ad.list`](rules/ad.list) | ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.rules.ad.yaml&label=&style=flat-square&color=transparent) | 广告/追踪/统计域名拦截 |
 
-**总计：![总计](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.display&label=&color=2E7D32&labelColor=15171B&style=flat-square) 条规则** ([stats.json](stats.json) 每日自动更新)
+**总计：![总计](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakaspyrean%2Fexternal%2Fmain%2Fstats.json&query=%24.display&label=&style=flat-square&color=transparent) 条规则** ([stats.json](stats.json) 每日自动更新)
 
 ---
 
@@ -168,20 +134,6 @@ proxy-groups:
 ---
 
 ## 自动维护
-
-```mermaid
-flowchart LR
-    CRON[GitHub Actions<br/>每日 UTC 0:00] --> FETCH[拉取上游规则源]
-    FETCH --> PROC[去重 · 归一化 · 格式转换]
-    PROC --> STAT[生成 stats.json]
-    STAT --> COMMIT[提交到 main 分支]
-    COMMIT --> CLIENT[客户端每日拉取]
-
-    classDef brand fill:#2E7D32,stroke:#1B5E20,color:#FFFFFF
-    classDef soft fill:#E8F5E9,stroke:#2E7D32,color:#15171B
-    class CRON,COMMIT brand
-    class FETCH,PROC,STAT,CLIENT soft
-```
 
 | 机制 | 详情 |
 | --- | --- |
