@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     16 Oct 2026 00:00 UTC
-# TOTAL:       27249
-# DOMAIN:      27237
+# UPDATED:     17 Oct 2026 00:06 UTC
+# TOTAL:       27250
+# DOMAIN:      27238
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -505,6 +505,7 @@ payload:
   - "DOMAIN-SUFFIX,7tb.cc"
   - "DOMAIN-SUFFIX,7tv.app"
   - "DOMAIN-SUFFIX,7tv.io"
+  - "DOMAIN-SUFFIX,7x24hrs.com"
   - "DOMAIN-SUFFIX,8-d.com"
   - "DOMAIN-SUFFIX,8008206616.com"
   - "DOMAIN-SUFFIX,8111y.top"
