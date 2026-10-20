@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     18 Oct 2026 23:51 UTC
-# TOTAL:       27268
-# DOMAIN:      27256
+# UPDATED:     20 Oct 2026 00:52 UTC
+# TOTAL:       27273
+# DOMAIN:      27261
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -14065,6 +14065,8 @@ DOMAIN-SUFFIX,kotlinlang.org
 DOMAIN-SUFFIX,koubaibu.jp
 DOMAIN-SUFFIX,koukoku.jp
 DOMAIN-SUFFIX,kouwobb.com
+DOMAIN-SUFFIX,kp-config-smart-tv.akamaized.net
+DOMAIN-SUFFIX,kp-configs-smart-tv.s3.eu-central-1.amazonaws.com
 DOMAIN-SUFFIX,kpacg.com
 DOMAIN-SUFFIX,kphimsex.net
 DOMAIN-SUFFIX,kpht85.com
@@ -14784,6 +14786,7 @@ DOMAIN-SUFFIX,magentomobile.com
 DOMAIN-SUFFIX,magestic.com
 DOMAIN-SUFFIX,magicalmirai.com
 DOMAIN-SUFFIX,magicmovies.com
+DOMAIN-SUFFIX,magnific.com
 DOMAIN-SUFFIX,mahajantech.com
 DOMAIN-SUFFIX,mahjongsoul.com
 DOMAIN-SUFFIX,maidonanews.jp
@@ -16270,6 +16273,7 @@ DOMAIN-SUFFIX,mtalk.google.com
 DOMAIN-SUFFIX,mtalk4.google.com
 DOMAIN-SUFFIX,mtao.fun
 DOMAIN-SUFFIX,mthruf.com
+DOMAIN-SUFFIX,mts-link.ru
 DOMAIN-SUFFIX,mts-ws.net
 DOMAIN-SUFFIX,mts.ru
 DOMAIN-SUFFIX,mtsbank.ru
@@ -19180,6 +19184,7 @@ DOMAIN-SUFFIX,postgresql.org
 DOMAIN-SUFFIX,postimages.org
 DOMAIN-SUFFIX,postimg.cc
 DOMAIN-SUFFIX,postini.com
+DOMAIN-SUFFIX,postman.com
 DOMAIN-SUFFIX,posts.careerengine.us
 DOMAIN-SUFFIX,posty.kr
 DOMAIN-SUFFIX,postyourgirls.ws
