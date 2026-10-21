@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Direct
-# UPDATED:     17 Oct 2026 00:06 UTC
-# TOTAL:       110483
-# DOMAIN:      110478
+# UPDATED:     21 Oct 2026 00:20 UTC
+# TOTAL:       110485
+# DOMAIN:      110480
 # IP-RELATED:  5
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -85732,6 +85732,8 @@ payload:
   - "DOMAIN-SUFFIX,szty56.com"
   - "DOMAIN-SUFFIX,sztz.org"
   - "DOMAIN-SUFFIX,sztzzs.com"
+  - "DOMAIN-SUFFIX,szu.app"
+  - "DOMAIN-SUFFIX,szu.moe"
   - "DOMAIN-SUFFIX,szuavia.org"
   - "DOMAIN-SUFFIX,szudad.com"
   - "DOMAIN-SUFFIX,szunionlab.com"
