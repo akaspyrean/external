@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Direct
-# UPDATED:     24 Oct 2026 23:56 UTC
-# TOTAL:       110208
-# DOMAIN:      110203
+# UPDATED:     27 Oct 2026 01:03 UTC
+# TOTAL:       110210
+# DOMAIN:      110205
 # IP-RELATED:  5
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -33934,6 +33934,7 @@ payload:
   - "DOMAIN-SUFFIX,fillersmart.com"
   - "DOMAIN-SUFFIX,fillseo.com"
   - "DOMAIN-SUFFIX,film-yuelongchina.com"
+  - "DOMAIN-SUFFIX,filmorigin.com"
   - "DOMAIN-SUFFIX,fily.fun"
   - "DOMAIN-SUFFIX,fim34s.com"
   - "DOMAIN-SUFFIX,fimmu.com"
@@ -56234,6 +56235,7 @@ payload:
   - "DOMAIN-SUFFIX,kakappt.com"
   - "DOMAIN-SUFFIX,kakashuzi.net"
   - "DOMAIN-SUFFIX,kakatx.com"
+  - "DOMAIN-SUFFIX,kakaxing.com"
   - "DOMAIN-SUFFIX,kakayuy.net"
   - "DOMAIN-SUFFIX,kaken-china.com"
   - "DOMAIN-SUFFIX,kaku-scdn.com"
