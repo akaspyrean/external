@@ -52,8 +52,15 @@ jobs:
           MINISIGN_KEY: ${{ secrets.MINISIGN_PRIVATE_KEY }}
           MINISIGN_PASSWORD: ${{ secrets.MINISIGN_PASSWORD }}
         run: |
-          printf '%s' "$MINISIGN_KEY" > /tmp/minisign.key
+          printf '%s\n' "$MINISIGN_KEY" > /tmp/minisign.key.raw
+          if head -n 1 /tmp/minisign.key.raw | grep -q '^untrusted comment:'; then
+            cp /tmp/minisign.key.raw /tmp/minisign.key
+          else
+            base64 -d /tmp/minisign.key.raw > /tmp/minisign.key
+          fi
           chmod 600 /tmp/minisign.key
+          echo "key lines: $(wc -l < /tmp/minisign.key)"
+          echo "header ok: $(head -n 1 /tmp/minisign.key | grep -q '^untrusted comment:' && echo yes || echo no)"
           cat > /tmp/sign.exp <<'EXPECT_EOF'
           set timeout 20
           spawn minisign -Sm rules-manifest.json -s /tmp/minisign.key
