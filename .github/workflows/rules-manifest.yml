@@ -1,0 +1,99 @@
+name: Rules Manifest
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "rules/**"
+      - "geodata/**"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: rules-manifest
+  cancel-in-progress: true
+
+jobs:
+  manifest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install minisign and expect
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y minisign expect
+
+      - name: Generate rules-manifest.json
+        run: |
+          COMMIT=$(git rev-parse HEAD)
+          python3 scripts/release/make-rules-manifest.py \
+            --repo-dir . \
+            --commit "$COMMIT" \
+            --out rules-manifest.json
+          cat rules-manifest.json
+
+      - name: Sign manifest with minisign
+        env:
+          MINISIGN_KEY: ${{ secrets.MINISIGN_PRIVATE_KEY }}
+          MINISIGN_PASSWORD: ${{ secrets.MINISIGN_PASSWORD }}
+        run: |
+          printf '%s' "$MINISIGN_KEY" > /tmp/minisign.key
+          chmod 600 /tmp/minisign.key
+          cat > /tmp/sign.exp <<'EXPECT_EOF'
+          set timeout 20
+          spawn minisign -Sm rules-manifest.json -s /tmp/minisign.key
+          expect {
+              -re {assword} {
+                  send "$env(MINISIGN_PASSWORD)\r"
+                  exp_continue
+              }
+              eof
+          }
+          lassign [wait] _ _ _ rc
+          exit $rc
+          EXPECT_EOF
+          expect /tmp/sign.exp
+          rm -f /tmp/minisign.key
+          test -f rules-manifest.json.minisig
+          cat rules-manifest.json.minisig
+
+      - name: Commit and push manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add rules-manifest.json rules-manifest.json.minisig
+
+          if git diff --cached --quiet; then
+            echo "Manifest unchanged."
+            exit 0
+          fi
+
+          git commit -m "chore: update rules manifest [skip ci]"
+
+          for i in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin main; then
+              exit 0
+            fi
+            echo "Push failed, retrying ($i)..."
+            sleep 5
+          done
+
+          echo "Push failed after retries"
+          exit 1
