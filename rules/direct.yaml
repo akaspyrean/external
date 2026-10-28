@@ -1,6 +1,6 @@
 # --------------------------------------------------
 # NAME:        Direct
-# UPDATED:     27 Oct 2026 01:03 UTC
+# UPDATED:     28 Oct 2026 00:54 UTC
 # TOTAL:       110210
 # DOMAIN:      110205
 # IP-RELATED:  5
@@ -61163,8 +61163,6 @@ payload:
   - "DOMAIN-SUFFIX,longanlaw.com"
   - "DOMAIN-SUFFIX,longau.com"
   - "DOMAIN-SUFFIX,longbenren.com"
-  - "DOMAIN-SUFFIX,longbridgeapp.com"
-  - "DOMAIN-SUFFIX,longbridgehk.com"
   - "DOMAIN-SUFFIX,longcai.com"
   - "DOMAIN-SUFFIX,longcai027.com"
   - "DOMAIN-SUFFIX,longcat.chat"
@@ -79036,7 +79034,9 @@ payload:
   - "DOMAIN-SUFFIX,sh-oca.com"
   - "DOMAIN-SUFFIX,sh-pet.com"
   - "DOMAIN-SUFFIX,sh-pn.com"
+  - "DOMAIN-SUFFIX,sh-pod1-smp-device.apple.com"
   - "DOMAIN-SUFFIX,sh-pod2-smp-device.apple.com"
+  - "DOMAIN-SUFFIX,sh-pod3-smp-device.apple.com"
   - "DOMAIN-SUFFIX,sh-pp.com"
   - "DOMAIN-SUFFIX,sh-printing.com"
   - "DOMAIN-SUFFIX,sh-prosperity.com"

@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     27 Oct 2026 01:03 UTC
-# TOTAL:       27319
-# DOMAIN:      27307
+# UPDATED:     28 Oct 2026 00:54 UTC
+# TOTAL:       27326
+# DOMAIN:      27314
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -2363,6 +2363,7 @@ DOMAIN-SUFFIX,arte.tv
 DOMAIN-SUFFIX,artel.watch
 DOMAIN-SUFFIX,arteldoc.com
 DOMAIN-SUFFIX,arteldoc.tv
+DOMAIN-SUFFIX,artificialanalysis.ai
 DOMAIN-SUFFIX,artixlinux.org
 DOMAIN-SUFFIX,artnudegalleries.com
 DOMAIN-SUFFIX,artoferotica.info
@@ -5724,6 +5725,7 @@ DOMAIN-SUFFIX,clickserver.googleads.com
 DOMAIN-SUFFIX,client-teamviewer-com.trafficmanager.net
 DOMAIN-SUFFIX,clients1.google.com
 DOMAIN-SUFFIX,climate-server.com
+DOMAIN-SUFFIX,cline.bot
 DOMAIN-SUFFIX,clinica-tibet.ru
 DOMAIN-SUFFIX,clinical-videos.com
 DOMAIN-SUFFIX,clinicalkey.com
@@ -5970,6 +5972,7 @@ DOMAIN-SUFFIX,comicuniverse.org
 DOMAIN-SUFFIX,comixzilla.com
 DOMAIN-SUFFIX,comm-verse.com
 DOMAIN-SUFFIX,commandandconquer.com
+DOMAIN-SUFFIX,commandcode.ai
 DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,commentshk.com
 DOMAIN-SUFFIX,commerceos.com
@@ -6023,6 +6026,7 @@ DOMAIN-SUFFIX,containersonaws.com
 DOMAIN-SUFFIX,contechacademy.com
 DOMAIN-SUFFIX,contentful.com
 DOMAIN-SUFFIX,contest.com
+DOMAIN-SUFFIX,context7.com
 DOMAIN-SUFFIX,convrgencegame.com
 DOMAIN-SUFFIX,cookiebot.com
 DOMAIN-SUFFIX,cookiechoices.org
@@ -15352,6 +15356,7 @@ DOMAIN-SUFFIX,messytube.com
 DOMAIN-SUFFIX,met-nude.com
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,metaaiusercontent.com
 DOMAIN-SUFFIX,metaaivm.com
 DOMAIN-SUFFIX,metabora.io
 DOMAIN-SUFFIX,metabrainz.org
@@ -17334,6 +17339,7 @@ DOMAIN-SUFFIX,notion.site
 DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,notionusercontent.com
 DOMAIN-SUFFIX,nottinghampost.com
+DOMAIN-SUFFIX,nousresearch.com
 DOMAIN-SUFFIX,novelai.net
 DOMAIN-SUFFIX,noveltrove.com
 DOMAIN-SUFFIX,novids.com
@@ -22921,6 +22927,7 @@ DOMAIN-SUFFIX,thinkdifferent.us
 DOMAIN-SUFFIX,thinkgeek.com
 DOMAIN-SUFFIX,thinkingtaiwan.com
 DOMAIN-SUFFIX,thinkofliving.com
+DOMAIN-SUFFIX,thinkorswim.com
 DOMAIN-SUFFIX,thinkquarterly.co.uk
 DOMAIN-SUFFIX,thinkquarterly.com
 DOMAIN-SUFFIX,thinkwithgoogle.com
