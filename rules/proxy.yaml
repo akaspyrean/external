@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     31 Oct 2026 01:22 UTC
-# TOTAL:       27335
-# DOMAIN:      27323
+# UPDATED:     01 Nov 2026 00:37 UTC
+# TOTAL:       27337
+# DOMAIN:      27325
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -23304,6 +23304,7 @@ payload:
   - "DOMAIN-SUFFIX,torproject.org"
   - "DOMAIN-SUFFIX,torrentgalaxy.to"
   - "DOMAIN-SUFFIX,torrentkitty.tv"
+  - "DOMAIN-SUFFIX,torrentleech.org"
   - "DOMAIN-SUFFIX,torrentprivacy.com"
   - "DOMAIN-SUFFIX,torrentproject.se"
   - "DOMAIN-SUFFIX,torrenty.org"
@@ -27054,6 +27055,7 @@ payload:
   - "DOMAIN-SUFFIX,youtubekids.com"
   - "DOMAIN-SUFFIX,youtubemobilesupport.com"
   - "DOMAIN-SUFFIX,youversion.com"
+  - "DOMAIN-SUFFIX,youversionapi.com"
   - "DOMAIN-SUFFIX,youwin.com"
   - "DOMAIN-SUFFIX,youwuss.com"
   - "DOMAIN-SUFFIX,youx.xxx"
