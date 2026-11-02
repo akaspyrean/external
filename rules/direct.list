@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Direct
-# UPDATED:     31 Oct 2026 01:22 UTC
-# TOTAL:       110153
-# DOMAIN:      110148
+# UPDATED:     02 Nov 2026 01:11 UTC
+# TOTAL:       110156
+# DOMAIN:      110151
 # IP-RELATED:  5
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -17161,6 +17161,7 @@ DOMAIN-SUFFIX,busnc.com
 DOMAIN-SUFFIX,bustoprint.com
 DOMAIN-SUFFIX,bustruckexpo.com
 DOMAIN-SUFFIX,busuanzi.cc
+DOMAIN-SUFFIX,busyming.com
 DOMAIN-SUFFIX,but7.com
 DOMAIN-SUFFIX,butair.com
 DOMAIN-SUFFIX,butao.com
@@ -29268,6 +29269,7 @@ DOMAIN-SUFFIX,doubaninfo.com
 DOMAIN-SUFFIX,doubanio.com
 DOMAIN-SUFFIX,doubao-dev.com
 DOMAIN-SUFFIX,doubao.com
+DOMAIN-SUFFIX,doubaoapps.com
 DOMAIN-SUFFIX,doubaocdn.com
 DOMAIN-SUFFIX,doubaozhidao.com
 DOMAIN-SUFFIX,doubean.com
@@ -109884,6 +109886,7 @@ DOMAIN-SUFFIX,zylianto.com
 DOMAIN-SUFFIX,zymc1.com
 DOMAIN-SUFFIX,zymkcdn.com
 DOMAIN-SUFFIX,zymkshop.com
+DOMAIN-SUFFIX,zymls.com
 DOMAIN-SUFFIX,zyoffice.com
 DOMAIN-SUFFIX,zyoo.net
 DOMAIN-SUFFIX,zyoogame.com
