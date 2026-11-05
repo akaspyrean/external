@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     04 Nov 2026 01:50 UTC
-# TOTAL:       27348
-# DOMAIN:      27336
+# UPDATED:     05 Nov 2026 01:57 UTC
+# TOTAL:       27353
+# DOMAIN:      27341
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -14443,6 +14443,9 @@ payload:
   - "DOMAIN-SUFFIX,lilhumpers.com"
   - "DOMAIN-SUFFIX,liliav.com"
   - "DOMAIN-SUFFIX,lilith-soft.com"
+  - "DOMAIN-SUFFIX,limbuscompany.global"
+  - "DOMAIN-SUFFIX,limbuscompanyapi.com"
+  - "DOMAIN-SUFFIX,limbuscompanycdn.org"
   - "DOMAIN-SUFFIX,limedia.tw"
   - "DOMAIN-SUFFIX,limelight.com"
   - "DOMAIN-SUFFIX,limer.tw"
@@ -19453,6 +19456,7 @@ payload:
   - "DOMAIN-SUFFIX,projectcircuitbreaker.com"
   - "DOMAIN-SUFFIX,projecteuclid.org"
   - "DOMAIN-SUFFIX,projectjav.com"
+  - "DOMAIN-SUFFIX,projectmoon.studio"
   - "DOMAIN-SUFFIX,projectmurphy.net"
   - "DOMAIN-SUFFIX,projectpoint.com"
   - "DOMAIN-SUFFIX,projectpoint.net"
@@ -21422,6 +21426,7 @@ payload:
   - "DOMAIN-SUFFIX,skillshare.com"
   - "DOMAIN-SUFFIX,skimtube.com"
   - "DOMAIN-SUFFIX,skinstrip.net"
+  - "DOMAIN-SUFFIX,skinswap.com"
   - "DOMAIN-SUFFIX,skokka.com"
   - "DOMAIN-SUFFIX,sksarab.top"
   - "DOMAIN-SUFFIX,skunkgirl.cc"
