@@ -1,7 +1,7 @@
 {
-  "total": 361254,
-  "display": "361,254",
-  "updated": "2026-11-05T01:57:44+00:00",
+  "total": 362570,
+  "display": "362,570",
+  "updated": "2026-11-06T01:57:53+00:00",
   "rules": {
     "direct": {
       "list": 110156,
@@ -20,8 +20,8 @@
       "yaml": 1578
     },
     "ad": {
-      "list": 222085,
-      "yaml": 222085
+      "list": 223401,
+      "yaml": 223401
     }
   },
   "formats_consistent": true,
