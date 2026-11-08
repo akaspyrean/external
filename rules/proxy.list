@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     05 Nov 2026 01:57 UTC
-# TOTAL:       27353
-# DOMAIN:      27341
+# UPDATED:     08 Nov 2026 01:00 UTC
+# TOTAL:       27357
+# DOMAIN:      27345
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -10925,6 +10925,7 @@ DOMAIN-SUFFIX,greginhollywood.com
 DOMAIN-SUFFIX,gridaware.app
 DOMAIN-SUFFIX,grindr.com
 DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grokbot.com
 DOMAIN-SUFFIX,grokipedia.com
 DOMAIN-SUFFIX,grooby.com
 DOMAIN-SUFFIX,groq.com
@@ -12017,6 +12018,7 @@ DOMAIN-SUFFIX,htl.li
 DOMAIN-SUFFIX,htlvbooks.com
 DOMAIN-SUFFIX,html5rocks.com
 DOMAIN-SUFFIX,htnewbooks.com
+DOMAIN-SUFFIX,http-intake.logs.us5.datadoghq.com
 DOMAIN-SUFFIX,httpfacebook.com
 DOMAIN-SUFFIX,httpsfacebook.com
 DOMAIN-SUFFIX,httpwwwfacebook.com
@@ -17653,6 +17655,7 @@ DOMAIN-SUFFIX,nytimg.com
 DOMAIN-SUFFIX,nytstyle.com
 DOMAIN-SUFFIX,o-courier.ru
 DOMAIN-SUFFIX,o-uchi.ru
+DOMAIN-SUFFIX,o1158394.ingest.us.sentry.io
 DOMAIN-SUFFIX,o2action.co.kr
 DOMAIN-SUFFIX,o3.ru
 DOMAIN-SUFFIX,o365weve-dev.com
@@ -19423,6 +19426,7 @@ DOMAIN-SUFFIX,prodcontest.com
 DOMAIN-SUFFIX,prodforza.blob.core.windows.net
 DOMAIN-SUFFIX,prodrive-japan.com
 DOMAIN-SUFFIX,product.co.jp
+DOMAIN-SUFFIX,production-copilot-host-westus.webpubsub.azure.com
 DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net
 DOMAIN-SUFFIX,productionresultssa0.blob.core.windows.net
 DOMAIN-SUFFIX,productionresultssa1.blob.core.windows.net
