@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "commit": "c3232327508aee2cd9ad90519c957b6edbf70b60",
-  "generated_at": "2026-11-08T01:01:09+00:00",
+  "commit": "ab104c22b8fe6f016650c643aeca82d4466d2028",
+  "generated_at": "2026-11-08T01:36:20+00:00",
   "count": 8,
   "files": [
     {
@@ -16,8 +16,8 @@
     },
     {
       "path": "geodata/GeoSite.dat",
-      "size": 4356594,
-      "sha256": "e4fa530c3f58593e78d20edf6563947a4257d1903e741871cacffc5a8a09d706"
+      "size": 4355007,
+      "sha256": "ab2c9f7217c91632057a8bff7810a6eb02ce05a8be4342cf7319ec1970d29733"
     },
     {
       "path": "rules/ad.yaml",
