@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Direct
-# UPDATED:     07 Nov 2026 01:31 UTC
-# TOTAL:       110155
-# DOMAIN:      110150
+# UPDATED:     11 Nov 2026 01:39 UTC
+# TOTAL:       110156
+# DOMAIN:      110151
 # IP-RELATED:  5
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -67413,6 +67413,7 @@ DOMAIN-SUFFIX,nhzj.com
 DOMAIN-SUFFIX,nhzs.com
 DOMAIN-SUFFIX,ni8.com
 DOMAIN-SUFFIX,ni93.com
+DOMAIN-SUFFIX,nia-teams.com
 DOMAIN-SUFFIX,nianchu.net
 DOMAIN-SUFFIX,nianhuawan.com
 DOMAIN-SUFFIX,niankawang.com
