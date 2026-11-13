@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "commit": "83d06723052d14a9bd712cd4706d79d4ee332edd",
-  "generated_at": "2026-11-13T02:20:27+00:00",
+  "commit": "71a60be973b075a4ae9b8970564eb8eb0683fe8c",
+  "generated_at": "2026-11-13T02:43:24+00:00",
   "count": 8,
   "files": [
     {
       "path": "geodata/Country.mmdb",
-      "size": 7621999,
-      "sha256": "c0c6ea5661a3167abb24bbbaf629605aa3856c425384cbf2897c5a0f41027663"
+      "size": 7628821,
+      "sha256": "bbedba6ef8584c484e35acdee4153ecf4bc9aa5e22b25d3982870ec1e780f681"
     },
     {
       "path": "geodata/GeoIP.dat",
-      "size": 16475153,
-      "sha256": "90b78ab861c1cdc3f871f305f9ceedfb8d6d6329e3a40295e6773e057297384c"
+      "size": 16467275,
+      "sha256": "304ac8a1cbcc8166e4f5a4f32955e4d0fb77a1bd713583e371b30ee27f3659d8"
     },
     {
       "path": "geodata/GeoSite.dat",
       "size": 4356285,
-      "sha256": "da712b401ea6f4fdb45983e7a3458332decb85c244307b443df3e11feb4af366"
+      "sha256": "aaf8ba4aeabebdffdccf2d4b4a0a4a50e62f2aaca27586c4e9f6525a878b3d9e"
     },
     {
       "path": "rules/ad.yaml",
