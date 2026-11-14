@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     11 Nov 2026 01:39 UTC
-# TOTAL:       27362
-# DOMAIN:      27350
+# UPDATED:     14 Nov 2026 01:56 UTC
+# TOTAL:       27363
+# DOMAIN:      27351
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -407,6 +407,7 @@ payload:
   - "DOMAIN-SUFFIX,51luoben.com"
   - "DOMAIN-SUFFIX,51luoli.info"
   - "DOMAIN-SUFFIX,51mh.app"
+  - "DOMAIN-SUFFIX,51papaya.com"
   - "DOMAIN-SUFFIX,51pincha.cc"
   - "DOMAIN-SUFFIX,51tuqiang.com"
   - "DOMAIN-SUFFIX,520aa.tv"
