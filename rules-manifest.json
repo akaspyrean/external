@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "commit": "6e6250325c40aeec954cdbc39544c770b54d51a3",
-  "generated_at": "2026-11-16T02:16:32+00:00",
+  "commit": "5dd92521d598a88f1dc4c1e50e0282fceea737dc",
+  "generated_at": "2026-11-16T09:09:27+00:00",
   "count": 8,
   "files": [
     {
@@ -21,28 +21,28 @@
     },
     {
       "path": "rules/ad.yaml",
-      "size": 9164092,
-      "sha256": "838dba9c06012b4588a688966fe5906c7d60d2a1722c8ca1e23edac89d93d21c"
+      "size": 9162596,
+      "sha256": "1e55160d53b8598e4b7e0ec957b616044ffac4419d2ed4f0dea65ded4d52f5ee"
     },
     {
       "path": "rules/ai.yaml",
-      "size": 3279,
-      "sha256": "329f3994f7331ed9ab452c1d874408e2854f81c659e6200887bd2ca42c400e15"
+      "size": 3600,
+      "sha256": "da25e8b3ea968cdb1219939b6378c11da1044765396e42f6358b5b5e29431586"
     },
     {
       "path": "rules/direct.yaml",
-      "size": 3599992,
-      "sha256": "c5ca0cf0329a6c8e11cd7bb2e58faedd141eff0bcbb518530782a5b3fd6c6c2e"
+      "size": 3600879,
+      "sha256": "ba5f92e88c5a1bbb4a2846b66b34e9c07b0ea6892030b3b7617ed3e57ff83cde"
     },
     {
       "path": "rules/media.yaml",
-      "size": 62226,
-      "sha256": "afd82e17a38221ada7ee1ad936d85d0584c2202e01d181ffbb74fccba6bdb86a"
+      "size": 62166,
+      "sha256": "9c3d7dbc3b9b8d53c813d62941cee926c440fb5d5f6a706fa595c8b527d84b7c"
     },
     {
       "path": "rules/proxy.yaml",
-      "size": 953925,
-      "sha256": "3a0f3b400853f468095db7200db20fa43771d5913a36a9c48a86b6d823291097"
+      "size": 951918,
+      "sha256": "427a854fe721ee90bd64fee7db178fdadb578ca21d37ee3b5a8b913b46eb3377"
     }
   ]
 }
