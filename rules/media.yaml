@@ -1,8 +1,8 @@
 # ----------------------------------------
 # NAME:        Media
-# UPDATED:     16 Nov 2026 09:08 UTC
-# TOTAL:       1577
-# DOMAIN:      451
+# UPDATED:     16 Nov 2026 13:25 UTC
+# TOTAL:       1572
+# DOMAIN:      446
 # IP-RELATED:  1122
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # ----------------------------------------
@@ -34,17 +34,13 @@ payload:
   - "DOMAIN-SUFFIX,braze.com"
   - "DOMAIN-SUFFIX,callhulu.com"
   - "DOMAIN-SUFFIX,cdn.optimizely.com"
-  - "DOMAIN-SUFFIX,cdn.registerdisney.go.com"
   - "DOMAIN-SUFFIX,conviva.com"
   - "DOMAIN-SUFFIX,cookielaw.org"
-  - "DOMAIN-SUFFIX,cws-hulu.conviva.com"
-  - "DOMAIN-SUFFIX,cws.conviva.com"
   - "DOMAIN-SUFFIX,d9.flashtalking.com"
   - "DOMAIN-SUFFIX,dilcdn.com"
   - "DOMAIN-SUFFIX,disney-asia.com"
   - "DOMAIN-SUFFIX,disney-discount.com"
   - "DOMAIN-SUFFIX,disney-plus.net"
-  - "DOMAIN-SUFFIX,disney-portal.my.onetrust.com"
   - "DOMAIN-SUFFIX,disney-studio.com"
   - "DOMAIN-SUFFIX,disney-studio.net"
   - "DOMAIN-SUFFIX,disney.asia"
@@ -177,7 +173,6 @@ payload:
   - "DOMAIN-SUFFIX,hulu.com"
   - "DOMAIN-SUFFIX,hulu.hb.omtrdc.net"
   - "DOMAIN-SUFFIX,hulu.jp"
-  - "DOMAIN-SUFFIX,hulu.playback.edge.bamgrid.com"
   - "DOMAIN-SUFFIX,hulu.sc.omtrdc.net"
   - "DOMAIN-SUFFIX,hulu.tv"
   - "DOMAIN-SUFFIX,hulu.us"
