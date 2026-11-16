@@ -1,11 +1,11 @@
-# --------------------------------------------------
+# ----------------------------------------
 # NAME:        Ad
-# UPDATED:     16 Nov 2026 01:31 UTC
-# TOTAL:       225490
-# DOMAIN:      225490
+# UPDATED:     16 Nov 2026 09:09 UTC
+# TOTAL:       225458
+# DOMAIN:      225458
 # IP-RELATED:  0
 # HOMEPAGE:    https://github.com/akaspyrean/external
-# --------------------------------------------------
+# ----------------------------------------
 
 DOMAIN-SUFFIX,0.avmarket.rs
 DOMAIN-SUFFIX,0.myikas.com
@@ -8016,7 +8016,6 @@ DOMAIN-SUFFIX,ad-cmp.hismarttv.com
 DOMAIN-SUFFIX,ad-count.jp
 DOMAIN-SUFFIX,ad-creative.projectcarmen.com
 DOMAIN-SUFFIX,ad-creative.pstatic.net
-DOMAIN-SUFFIX,ad-creatives-public.commondatastorage.googleapis.com
 DOMAIN-SUFFIX,ad-ctrl.see-digital.co.uk
 DOMAIN-SUFFIX,ad-cupid.com
 DOMAIN-SUFFIX,ad-delivery.net
@@ -10080,7 +10079,6 @@ DOMAIN-SUFFIX,adobeedge.pst-dva-acc.csda.gov.au
 DOMAIN-SUFFIX,adobeedge.pst-myorg.dva.gov.au
 DOMAIN-SUFFIX,adobeedge.pst-myservice.dva.gov.au
 DOMAIN-SUFFIX,adobemarketing.bodendirect.at
-DOMAIN-SUFFIX,adobemetrics.auth0.com
 DOMAIN-SUFFIX,adobemetrics.cluballiance.aaa.com
 DOMAIN-SUFFIX,adobemetrics.metlife.com
 DOMAIN-SUFFIX,adobemetrics.okta.com
@@ -17646,8 +17644,6 @@ DOMAIN-SUFFIX,androiddownload.net
 DOMAIN-SUFFIX,androidduvetscribble.com
 DOMAIN-SUFFIX,androidgo.duapp.com
 DOMAIN-SUFFIX,androidlog.shouji.baofeng.com
-DOMAIN-SUFFIX,androidtvchannels-pa.googleapis.com
-DOMAIN-SUFFIX,androidtvwatsonfe-pa.googleapis.com
 DOMAIN-SUFFIX,androidupdate.download
 DOMAIN-SUFFIX,andromedawallet.com
 DOMAIN-SUFFIX,andrqd.play.aiseet.atianqi.com
@@ -28681,7 +28677,6 @@ DOMAIN-SUFFIX,browsepantartful.com
 DOMAIN-SUFFIX,browser-fp.production.linktr.ee
 DOMAIN-SUFFIX,browser-http-intake.logs.datadoghq.com
 DOMAIN-SUFFIX,browser-http-intake.logs.datadoghq.eu
-DOMAIN-SUFFIX,browser-intake-datadoghq.com
 DOMAIN-SUFFIX,browser-intake-datadoghq.eu
 DOMAIN-SUFFIX,browser-statistik.de
 DOMAIN-SUFFIX,browser-tools.systems
@@ -29830,8 +29825,6 @@ DOMAIN-SUFFIX,bzpogcssaxbmc.space
 DOMAIN-SUFFIX,bzpqekgjvaqkn.website
 DOMAIN-SUFFIX,bzqxze.remixshop.com
 DOMAIN-SUFFIX,bzqy2p14z.com
-DOMAIN-SUFFIX,bzr.openai.com
-DOMAIN-SUFFIX,bzrcdn.openai.com
 DOMAIN-SUFFIX,bzrch.heyskipperfishing.com
 DOMAIN-SUFFIX,bzrgbresuhvrw.space
 DOMAIN-SUFFIX,bzrpp.nakednutrition.ca
@@ -32752,7 +32745,6 @@ DOMAIN-SUFFIX,cdn.ugopkl.com
 DOMAIN-SUFFIX,cdn.umh.ua
 DOMAIN-SUFFIX,cdn.umx24.com
 DOMAIN-SUFFIX,cdn.usabilitytracker.com
-DOMAIN-SUFFIX,cdn.usefathom.com
 DOMAIN-SUFFIX,cdn.userleap.com
 DOMAIN-SUFFIX,cdn.userreport.com
 DOMAIN-SUFFIX,cdn.usezeno.com.br
@@ -35102,7 +35094,6 @@ DOMAIN-SUFFIX,clientinfo.phimmoizz.net
 DOMAIN-SUFFIX,clientlog.midomi.com
 DOMAIN-SUFFIX,clientlog.music.163.com
 DOMAIN-SUFFIX,clientlog.perfectworldgames.com
-DOMAIN-SUFFIX,clientlog.portal.office.com
 DOMAIN-SUFFIX,clientlog.pwsdk.com
 DOMAIN-SUFFIX,clientlog.wanmei.com
 DOMAIN-SUFFIX,clientlog3.music.163.com
@@ -35110,7 +35101,6 @@ DOMAIN-SUFFIX,clientlogdep.music.163.com
 DOMAIN-SUFFIX,clientlogger.marketplace.aws.a2z.com
 DOMAIN-SUFFIX,clientlogsf.music.163.com
 DOMAIN-SUFFIX,clientmetrics-augmentum.kik.com
-DOMAIN-SUFFIX,clientmetrics-pa.googleapis.com
 DOMAIN-SUFFIX,clientmetrics.kik.com
 DOMAIN-SUFFIX,clients-access.com
 DOMAIN-SUFFIX,clients-share.com
@@ -35124,7 +35114,6 @@ DOMAIN-SUFFIX,clients.rainkingonline.com
 DOMAIN-SUFFIX,clients.rottne.com
 DOMAIN-SUFFIX,clients.tbllem.com
 DOMAIN-SUFFIX,clientservice.alphasimplex.com
-DOMAIN-SUFFIX,clientservices.googleapis.com
 DOMAIN-SUFFIX,clientservices.grassrootsunwired.com
 DOMAIN-SUFFIX,clientsvogie.com
 DOMAIN-SUFFIX,clifads.com
@@ -35422,7 +35411,6 @@ DOMAIN-SUFFIX,cloudcinemaheavily.com
 DOMAIN-SUFFIX,cloudcoins.co
 DOMAIN-SUFFIX,cloudconf.fengkongcloud.com
 DOMAIN-SUFFIX,cloudcrown.com
-DOMAIN-SUFFIX,clouderrorreporting.googleapis.com
 DOMAIN-SUFFIX,cloudfilt.com
 DOMAIN-SUFFIX,cloudflane.com
 DOMAIN-SUFFIX,cloudflareinsights.com
@@ -37867,7 +37855,6 @@ DOMAIN-SUFFIX,continue.dasboard974-account.com
 DOMAIN-SUFFIX,continueallergic.com
 DOMAIN-SUFFIX,continuenow.miami.edu
 DOMAIN-SUFFIX,contortionist08.com
-DOMAIN-SUFFIX,contoso-my.sharepoint.com
 DOMAIN-SUFFIX,contrack.link
 DOMAIN-SUFFIX,contractexcitedly.com
 DOMAIN-SUFFIX,contractor-app.buildforce.com
@@ -39213,7 +39200,6 @@ DOMAIN-SUFFIX,crashes.mo.wps.cn
 DOMAIN-SUFFIX,crasheye.cn
 DOMAIN-SUFFIX,crashlytics.163.com
 DOMAIN-SUFFIX,crashlytics.com
-DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
 DOMAIN-SUFFIX,crashpandas.com
 DOMAIN-SUFFIX,cratecamera.com
 DOMAIN-SUFFIX,craterbox.com
@@ -46509,7 +46495,6 @@ DOMAIN-SUFFIX,data.deximaging.com
 DOMAIN-SUFFIX,data.dexternutrition.com.br
 DOMAIN-SUFFIX,data.dg.test.ajo.adobe.com
 DOMAIN-SUFFIX,data.dhk-kozijnen.nl
-DOMAIN-SUFFIX,data.diagnostics.office.com
 DOMAIN-SUFFIX,data.diagnostics.onstar.com
 DOMAIN-SUFFIX,data.dialogify.io
 DOMAIN-SUFFIX,data.diariosur.es
@@ -60972,7 +60957,6 @@ DOMAIN-SUFFIX,events.kioki.co.uk
 DOMAIN-SUFFIX,events.la-z-boy.com
 DOMAIN-SUFFIX,events.lakesideac.com
 DOMAIN-SUFFIX,events.lansdowneresort.com
-DOMAIN-SUFFIX,events.launchdarkly.com
 DOMAIN-SUFFIX,events.lbesecapi.com
 DOMAIN-SUFFIX,events.lexmark.com
 DOMAIN-SUFFIX,events.lieferando.at
@@ -61080,7 +61064,6 @@ DOMAIN-SUFFIX,events.squarespace.com
 DOMAIN-SUFFIX,events.srfestival.com
 DOMAIN-SUFFIX,events.staffboom.com
 DOMAIN-SUFFIX,events.statesidefest.com
-DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,events.stevesmobilesecurity.com
 DOMAIN-SUFFIX,events.stocks.help
 DOMAIN-SUFFIX,events.stonkstutors.com
@@ -63006,7 +62989,6 @@ DOMAIN-SUFFIX,featured.bradyid.com
 DOMAIN-SUFFIX,featured.perfectionholic.com
 DOMAIN-SUFFIX,featured.premiermedia.net
 DOMAIN-SUFFIX,featuregangster.com
-DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,featurelockout.com
 DOMAIN-SUFFIX,featurerunalltestsalways.net.mydays.de
 DOMAIN-SUFFIX,feavq.freeeasemd.com
@@ -63025,7 +63007,6 @@ DOMAIN-SUFFIX,fecksrexine.com
 DOMAIN-SUFFIX,feckurteg.net
 DOMAIN-SUFFIX,fedariestricksdosing.cyou
 DOMAIN-SUFFIX,federal.external.xerox.com
-DOMAIN-SUFFIX,federatedcompute-pa.googleapis.com
 DOMAIN-SUFFIX,fedex-rescheduel-date.com
 DOMAIN-SUFFIX,fedex-rescheduel-delivery-date.com
 DOMAIN-SUFFIX,fedexfield.redskins.com
@@ -64193,8 +64174,6 @@ DOMAIN-SUFFIX,fire.tribemd.com
 DOMAIN-SUFFIX,fireads.online
 DOMAIN-SUFFIX,fireads.org
 DOMAIN-SUFFIX,fireanalytics.firestream.to
-DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com
-DOMAIN-SUFFIX,firebaselogging.googleapis.com
 DOMAIN-SUFFIX,firecatfilms.com
 DOMAIN-SUFFIX,firefang.cn
 DOMAIN-SUFFIX,firefly.jamesbrowne.me
@@ -65205,7 +65184,6 @@ DOMAIN-SUFFIX,footprint.frizznflame.com
 DOMAIN-SUFFIX,footprintdns.com
 DOMAIN-SUFFIX,footprinthighamaze.com
 DOMAIN-SUFFIX,footprintlive.com
-DOMAIN-SUFFIX,footprints-pa.googleapis.com
 DOMAIN-SUFFIX,footsiebuhrs.cyou
 DOMAIN-SUFFIX,footwaysumless.qpon
 DOMAIN-SUFFIX,footwear.ubmfashion.com
@@ -65553,7 +65531,6 @@ DOMAIN-SUFFIX,fp.lemondocs.de
 DOMAIN-SUFFIX,fp.mandatum.fi
 DOMAIN-SUFFIX,fp.mandatumlife.fi
 DOMAIN-SUFFIX,fp.mandatumtrader.fi
-DOMAIN-SUFFIX,fp.measure.office.com
 DOMAIN-SUFFIX,fp.mediaintelliview.com
 DOMAIN-SUFFIX,fp.nanrenwo.net
 DOMAIN-SUFFIX,fp.next-hub.com
@@ -85193,7 +85170,6 @@ DOMAIN-SUFFIX,imaqdk.labombilla.fr
 DOMAIN-SUFFIX,imaretbirses.com
 DOMAIN-SUFFIX,imarker.com
 DOMAIN-SUFFIX,imarker.ru
-DOMAIN-SUFFIX,imasdk.googleapis.com
 DOMAIN-SUFFIX,imata.signetlondon.com
 DOMAIN-SUFFIX,imbhdu.housedo.co.jp
 DOMAIN-SUFFIX,imbrierbioticsmoneron.cyou
@@ -114411,7 +114387,6 @@ DOMAIN-SUFFIX,measure.nytedu.com
 DOMAIN-SUFFIX,measure.o-ring-stocks.eu
 DOMAIN-SUFFIX,measure.oaklovesyou.com
 DOMAIN-SUFFIX,measure.octazing.com
-DOMAIN-SUFFIX,measure.office.com
 DOMAIN-SUFFIX,measure.orbiloc.com
 DOMAIN-SUFFIX,measure.orrefors.se
 DOMAIN-SUFFIX,measure.osavi.com
@@ -124771,7 +124746,6 @@ DOMAIN-SUFFIX,nexus.ensighten.tiaa.org
 DOMAIN-SUFFIX,nexus.firecrown.com
 DOMAIN-SUFFIX,nexus.gomule.com
 DOMAIN-SUFFIX,nexus.mbna.ca
-DOMAIN-SUFFIX,nexus.officeapps.live.com
 DOMAIN-SUFFIX,nexus.rottne.com
 DOMAIN-SUFFIX,nexus.td.com
 DOMAIN-SUFFIX,nexus.tdassurance.com
@@ -124782,7 +124756,6 @@ DOMAIN-SUFFIX,nexus.uniten.io
 DOMAIN-SUFFIX,nexus.virginholidays.co.uk
 DOMAIN-SUFFIX,nexusbloom.xyz
 DOMAIN-SUFFIX,nexusedgeio.com
-DOMAIN-SUFFIX,nexusrules.officeapps.live.com
 DOMAIN-SUFFIX,nexx360-static.io
 DOMAIN-SUFFIX,nexx360.io
 DOMAIN-SUFFIX,nexxtv-events.servicebus.windows.net
@@ -128079,7 +128052,6 @@ DOMAIN-SUFFIX,og7231kq7.com
 DOMAIN-SUFFIX,og96.6cuewvb77wjjum9ywutv28lk3by42t.cyou
 DOMAIN-SUFFIX,ogacl.lovecrafts.com
 DOMAIN-SUFFIX,ogads-pa.clients6.google.com
-DOMAIN-SUFFIX,ogads-pa.googleapis.com
 DOMAIN-SUFFIX,ogaep.steelhorseleather.com
 DOMAIN-SUFFIX,ogarfyucpapgy.space
 DOMAIN-SUFFIX,ogavjmydvhvqe.com
@@ -141328,7 +141300,6 @@ DOMAIN-SUFFIX,r.my.com
 DOMAIN-SUFFIX,r.nexoraid1.space
 DOMAIN-SUFFIX,r.niwepa.com
 DOMAIN-SUFFIX,r.onmyway.com
-DOMAIN-SUFFIX,r.openai.com
 DOMAIN-SUFFIX,r.partner.badoo.ru
 DOMAIN-SUFFIX,r.phhhoto.com
 DOMAIN-SUFFIX,r.pixgold.com
@@ -150754,7 +150725,6 @@ DOMAIN-SUFFIX,segment-api.goodrx.com
 DOMAIN-SUFFIX,segment-api.inrix.com
 DOMAIN-SUFFIX,segment-cdn.producthunt.com
 DOMAIN-SUFFIX,segment.com
-DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,segment.lalr.co
 DOMAIN-SUFFIX,segmenthub.com
 DOMAIN-SUFFIX,segmentify.com
@@ -151067,7 +151037,6 @@ DOMAIN-SUFFIX,sentry.fidibo.net
 DOMAIN-SUFFIX,sentry.filmnet.ir
 DOMAIN-SUFFIX,sentry.footballiapp.com
 DOMAIN-SUFFIX,sentry.hamravesh.com
-DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sentry.malltina.com
 DOMAIN-SUFFIX,sentry.mci.dev
 DOMAIN-SUFFIX,sentry.mediacdn.vn
@@ -185725,7 +185694,6 @@ DOMAIN-SUFFIX,statsforads.com
 DOMAIN-SUFFIX,statsforever.com
 DOMAIN-SUFFIX,statshunt.com
 DOMAIN-SUFFIX,statsie.com
-DOMAIN-SUFFIX,statsig.anthropic.com
 DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,statsinsight.com
 DOMAIN-SUFFIX,statsit.com

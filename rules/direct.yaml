@@ -1,11 +1,11 @@
-# --------------------------------------------------
+# ----------------------------------------
 # NAME:        Direct
-# UPDATED:     16 Nov 2026 01:31 UTC
-# TOTAL:       110210
-# DOMAIN:      110205
+# UPDATED:     16 Nov 2026 09:08 UTC
+# TOTAL:       110234
+# DOMAIN:      110229
 # IP-RELATED:  5
 # HOMEPAGE:    https://github.com/akaspyrean/external
-# --------------------------------------------------
+# ----------------------------------------
 
 payload:
   - "DOMAIN,licenses.graphpad.com"
@@ -9151,6 +9151,7 @@ payload:
   - "DOMAIN-SUFFIX,aacoptics.com"
   - "DOMAIN-SUFFIX,aactp.net"
   - "DOMAIN-SUFFIX,aad5.com"
+  - "DOMAIN-SUFFIX,aadcdn.msftauth.net"
   - "DOMAIN-SUFFIX,aadcloud.com"
   - "DOMAIN-SUFFIX,aads-cng.net"
   - "DOMAIN-SUFFIX,aafanke.cc"
@@ -9310,6 +9311,8 @@ payload:
   - "DOMAIN-SUFFIX,accopower.com"
   - "DOMAIN-SUFFIX,account-cn.alibabacloud.com"
   - "DOMAIN-SUFFIX,account.htcvive.com"
+  - "DOMAIN-SUFFIX,account.live.com"
+  - "DOMAIN-SUFFIX,account.microsoft.com"
   - "DOMAIN-SUFFIX,accr.cc"
   - "DOMAIN-SUFFIX,accsh.org"
   - "DOMAIN-SUFFIX,acctdns.net"
@@ -24023,6 +24026,7 @@ payload:
   - "DOMAIN-SUFFIX,conele.com"
   - "DOMAIN-SUFFIX,conergas.net"
   - "DOMAIN-SUFFIX,conew.com"
+  - "DOMAIN-SUFFIX,config.office.com"
   - "DOMAIN-SUFFIX,configuration.apple.com"
   - "DOMAIN-SUFFIX,configuration.apple.com.akadns.net"
   - "DOMAIN-SUFFIX,configuration.ls.apple.com"
@@ -30899,6 +30903,7 @@ payload:
   - "DOMAIN-SUFFIX,ecqun.com"
   - "DOMAIN-SUFFIX,ecr-global.com"
   - "DOMAIN-SUFFIX,ecrrc.com"
+  - "DOMAIN-SUFFIX,ecs.office.com"
   - "DOMAIN-SUFFIX,ecsage.net"
   - "DOMAIN-SUFFIX,ecscoupon.com"
   - "DOMAIN-SUFFIX,ecscpu.com"
@@ -60585,6 +60590,7 @@ payload:
   - "DOMAIN-SUFFIX,livanauto.com"
   - "DOMAIN-SUFFIX,live-helps.com"
   - "DOMAIN-SUFFIX,live-voip.com"
+  - "DOMAIN-SUFFIX,live.net"
   - "DOMAIN-SUFFIX,live123.cc"
   - "DOMAIN-SUFFIX,live800.com"
   - "DOMAIN-SUFFIX,liveapp.ink"
@@ -60975,6 +60981,8 @@ payload:
   - "DOMAIN-SUFFIX,logi100.com"
   - "DOMAIN-SUFFIX,logicdsp.com"
   - "DOMAIN-SUFFIX,login.cdnetworks.com"
+  - "DOMAIN-SUFFIX,login.live.com"
+  - "DOMAIN-SUFFIX,login.microsoftonline.com"
   - "DOMAIN-SUFFIX,logiseasy.com"
   - "DOMAIN-SUFFIX,logisteed-sc.com"
   - "DOMAIN-SUFFIX,logistics-ea.com"
@@ -65535,6 +65543,7 @@ payload:
   - "DOMAIN-SUFFIX,moziqing.com"
   - "DOMAIN-SUFFIX,mozouyan.com"
   - "DOMAIN-SUFFIX,mp.cc"
+  - "DOMAIN-SUFFIX,mp.microsoft.com"
   - "DOMAIN-SUFFIX,mp17.com"
   - "DOMAIN-SUFFIX,mp333player.com"
   - "DOMAIN-SUFFIX,mp4ba.com"
@@ -65622,6 +65631,7 @@ payload:
   - "DOMAIN-SUFFIX,ms211.com"
   - "DOMAIN-SUFFIX,ms315.com"
   - "DOMAIN-SUFFIX,msanjia.com"
+  - "DOMAIN-SUFFIX,msauth.net"
   - "DOMAIN-SUFFIX,msbank.com"
   - "DOMAIN-SUFFIX,mscbsc.com"
   - "DOMAIN-SUFFIX,mscdntrip.com"
@@ -65638,6 +65648,9 @@ payload:
   - "DOMAIN-SUFFIX,msdprc.com"
   - "DOMAIN-SUFFIX,msdprod-ad.download.prss.microsoft.com"
   - "DOMAIN-SUFFIX,msfpay.com"
+  - "DOMAIN-SUFFIX,msftauth.net"
+  - "DOMAIN-SUFFIX,msftconnecttest.com"
+  - "DOMAIN-SUFFIX,msftncsi.com"
   - "DOMAIN-SUFFIX,msftonlinelab.com"
   - "DOMAIN-SUFFIX,msg.work"
   - "DOMAIN-SUFFIX,msgamego.com"
@@ -65664,6 +65677,7 @@ payload:
   - "DOMAIN-SUFFIX,msmartlife.com"
   - "DOMAIN-SUFFIX,msndvr.com"
   - "DOMAIN-SUFFIX,msny.cc"
+  - "DOMAIN-SUFFIX,msocdn.com"
   - "DOMAIN-SUFFIX,msolok.com"
   - "DOMAIN-SUFFIX,mspace.cc"
   - "DOMAIN-SUFFIX,mspharm.com"
@@ -69344,12 +69358,17 @@ payload:
   - "DOMAIN-SUFFIX,offersloc.com"
   - "DOMAIN-SUFFIX,offerstrack.net"
   - "DOMAIN-SUFFIX,office-cn.net"
+  - "DOMAIN-SUFFIX,office.com"
+  - "DOMAIN-SUFFIX,office.net"
+  - "DOMAIN-SUFFIX,office365.com"
   - "DOMAIN-SUFFIX,office68.com"
   - "DOMAIN-SUFFIX,office8hour.com"
   - "DOMAIN-SUFFIX,officeaid.com"
   - "DOMAIN-SUFFIX,officeaid02.com"
+  - "DOMAIN-SUFFIX,officeapps.live.com"
   - "DOMAIN-SUFFIX,officebai.com"
   - "DOMAIN-SUFFIX,officebay.net"
+  - "DOMAIN-SUFFIX,officecdn-microsoft-com.akamaized.net"
   - "DOMAIN-SUFFIX,officecdn.microsoft.com"
   - "DOMAIN-SUFFIX,officectrl.com"
   - "DOMAIN-SUFFIX,officemkt.download.prss.microsoft.com"
@@ -69603,6 +69622,7 @@ payload:
   - "DOMAIN-SUFFIX,onediankeji.com"
   - "DOMAIN-SUFFIX,onedict.com"
   - "DOMAIN-SUFFIX,onedns.net"
+  - "DOMAIN-SUFFIX,onedrive.com"
   - "DOMAIN-SUFFIX,oneflys.com"
   - "DOMAIN-SUFFIX,onefoot365.com"
   - "DOMAIN-SUFFIX,onegg.site"
@@ -76179,6 +76199,7 @@ payload:
   - "DOMAIN-SUFFIX,roadwaygroup.com"
   - "DOMAIN-SUFFIX,roai.shop"
   - "DOMAIN-SUFFIX,roaing.com"
+  - "DOMAIN-SUFFIX,roaming.officeapps.live.com"
   - "DOMAIN-SUFFIX,robam.com"
   - "DOMAIN-SUFFIX,robbyant.com"
   - "DOMAIN-SUFFIX,robei.com"
@@ -78724,6 +78745,7 @@ payload:
   - "DOMAIN-SUFFIX,setdg.net"
   - "DOMAIN-SUFFIX,seteuid0.com"
   - "DOMAIN-SUFFIX,setshop.vip"
+  - "DOMAIN-SUFFIX,settings-win.data.microsoft.com"
   - "DOMAIN-SUFFIX,seuic.com"
   - "DOMAIN-SUFFIX,sevb.com"
   - "DOMAIN-SUFFIX,seven-meters.com"
@@ -79400,6 +79422,7 @@ payload:
   - "DOMAIN-SUFFIX,sharelogis.com"
   - "DOMAIN-SUFFIX,sharemoon.club"
   - "DOMAIN-SUFFIX,shareoneplanet.org"
+  - "DOMAIN-SUFFIX,sharepoint.com"
   - "DOMAIN-SUFFIX,sharesdns.com"
   - "DOMAIN-SUFFIX,sharetome.com"
   - "DOMAIN-SUFFIX,sharetrace.com"
@@ -94491,6 +94514,7 @@ payload:
   - "DOMAIN-SUFFIX,windows10zj.com"
   - "DOMAIN-SUFFIX,windows7en.com"
   - "DOMAIN-SUFFIX,windowstool.net"
+  - "DOMAIN-SUFFIX,windowsupdate.com"
   - "DOMAIN-SUFFIX,windowszj.com"
   - "DOMAIN-SUFFIX,windpayer.com"
   - "DOMAIN-SUFFIX,winds.red"
