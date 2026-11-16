@@ -1,8 +1,8 @@
 # --------------------------------------------------
 # NAME:        Proxy
-# UPDATED:     14 Nov 2026 01:56 UTC
-# TOTAL:       27363
-# DOMAIN:      27351
+# UPDATED:     16 Nov 2026 01:31 UTC
+# TOTAL:       27368
+# DOMAIN:      27356
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # --------------------------------------------------
@@ -4754,6 +4754,7 @@ DOMAIN-SUFFIX,bugzilla.org
 DOMAIN-SUFFIX,buhidoh.net
 DOMAIN-SUFFIX,buicha.social
 DOMAIN-SUFFIX,building3dcontent.com
+DOMAIN-SUFFIX,builds.dotnet.microsoft.com
 DOMAIN-SUFFIX,builtfromebay.com
 DOMAIN-SUFFIX,builtwithnix.org
 DOMAIN-SUFFIX,bukkake-jav.com
@@ -6574,6 +6575,7 @@ DOMAIN-SUFFIX,dealtree.org
 DOMAIN-SUFFIX,deasians.com
 DOMAIN-SUFFIX,debank.com
 DOMAIN-SUFFIX,debian.org
+DOMAIN-SUFFIX,debot.ai
 DOMAIN-SUFFIX,debug.com
 DOMAIN-SUFFIX,debugproject.com
 DOMAIN-SUFFIX,decentr.net
@@ -7336,6 +7338,7 @@ DOMAIN-SUFFIX,dotfreesex.com
 DOMAIN-SUFFIX,dotherex.com
 DOMAIN-SUFFIX,dothq.org
 DOMAIN-SUFFIX,dotmac.de
+DOMAIN-SUFFIX,dotnetcli.trafficmanager.net
 DOMAIN-SUFFIX,dotplane.com
 DOMAIN-SUFFIX,dotsub.com
 DOMAIN-SUFFIX,dotvpn.com
@@ -20062,6 +20065,7 @@ DOMAIN-SUFFIX,reiporno.com
 DOMAIN-SUFFIX,relateiq.com
 DOMAIN-SUFFIX,religionnews.com
 DOMAIN-SUFFIX,remirepo.net
+DOMAIN-SUFFIX,remna.dev
 DOMAIN-SUFFIX,remna.st
 DOMAIN-SUFFIX,rencapbank.ru
 DOMAIN-SUFFIX,renchead.com
@@ -22300,6 +22304,7 @@ DOMAIN-SUFFIX,sunbingo.co.uk
 DOMAIN-SUFFIX,sundanceignite2016.com
 DOMAIN-SUFFIX,sundayguardianlive.com
 DOMAIN-SUFFIX,sundayready.com
+DOMAIN-SUFFIX,sundry-star-net-geo.trafficmanager.net
 DOMAIN-SUFFIX,sunglassessale2014.com
 DOMAIN-SUFFIX,sunmedia.ca
 DOMAIN-SUFFIX,suno.ai
