@@ -1,6 +1,6 @@
 # ----------------------------------------
 # NAME:        Proxy
-# UPDATED:     17 Nov 2026 04:16 UTC
+# UPDATED:     19 Nov 2026 02:54 UTC
 # TOTAL:       26341
 # DOMAIN:      26329
 # IP-RELATED:  12
@@ -7725,6 +7725,7 @@ DOMAIN-SUFFIX,elephanttube.com
 DOMAIN-SUFFIX,elephanttubenew.com
 DOMAIN-SUFFIX,elevenlabs.com
 DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,elevenlabsusercontent.com
 DOMAIN-SUFFIX,elgaronline.com
 DOMAIN-SUFFIX,elgoog.im
 DOMAIN-SUFFIX,elib.maruzen.co.jp
@@ -25868,7 +25869,6 @@ DOMAIN-SUFFIX,yandexdataschool.ru
 DOMAIN-SUFFIX,yandexgo.com
 DOMAIN-SUFFIX,yandexlyceum.ru
 DOMAIN-SUFFIX,yandexwebcache.net
-DOMAIN-SUFFIX,yandexwebcache.org
 DOMAIN-SUFFIX,yango-b2b.com
 DOMAIN-SUFFIX,yango-team.com
 DOMAIN-SUFFIX,yango-tech.com
