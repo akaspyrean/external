@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "commit": "28bc1883fcda11fbf6a216446be56930674b0f87",
-  "generated_at": "2026-11-19T02:55:33+00:00",
+  "commit": "9b56f3a6d13f932e32d32500dc1ba2bc741fada9",
+  "generated_at": "2026-11-20T02:49:02+00:00",
   "count": 8,
   "files": [
     {
@@ -21,8 +21,8 @@
     },
     {
       "path": "rules/ad.yaml",
-      "size": 8621926,
-      "sha256": "22f03e70aad7237446642e93ab2b19924f6a7ef8347dd9e809964af6e5e0c9e2"
+      "size": 8637958,
+      "sha256": "b38912da3f31b87a49b054380eb60d6ba7e90c5d4a426fdce462980614127c1e"
     },
     {
       "path": "rules/ai.yaml",
