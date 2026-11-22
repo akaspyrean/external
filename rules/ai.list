@@ -1,8 +1,8 @@
 # ----------------------------------------
 # NAME:        Ai
-# UPDATED:     16 Nov 2026 09:08 UTC
-# TOTAL:       90
-# DOMAIN:      87
+# UPDATED:     22 Nov 2026 01:51 UTC
+# TOTAL:       95
+# DOMAIN:      92
 # IP-RELATED:  3
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # ----------------------------------------
@@ -24,8 +24,11 @@ DOMAIN,console.groq.com
 DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN,daily-cloudcode-pa.googleapis.com
 DOMAIN,gemini.google.com
+DOMAIN,geminiweb-pa.clients.google.com
+DOMAIN,geminiweb-pa.clients6.google.com
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN,makersuite.google.com
+DOMAIN,notebooklm-pa.googleapis.com
 DOMAIN,notebooklm.google.com
 DOMAIN,openai-api.arkoselabs.com
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
@@ -45,6 +48,7 @@ DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,clau.de
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudeusercontent.com
@@ -62,6 +66,7 @@ DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,grazie.aws.intellij.net
+DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,intercom.io
