@@ -1,8 +1,8 @@
 # ----------------------------------------
 # NAME:        Proxy
-# UPDATED:     22 Nov 2026 01:51 UTC
-# TOTAL:       26248
-# DOMAIN:      26236
+# UPDATED:     24 Nov 2026 05:41 UTC
+# TOTAL:       26249
+# DOMAIN:      26237
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # ----------------------------------------
@@ -9726,6 +9726,7 @@ DOMAIN-SUFFIX,gelbooru.wjcodes.com
 DOMAIN-SUFFIX,gemfire.net
 DOMAIN-SUFFIX,gemfury.com
 DOMAIN-SUFFIX,gemini.com
+DOMAIN-SUFFIX,gemma.ai
 DOMAIN-SUFFIX,gen.lib.rus.ec
 DOMAIN-SUFFIX,genbank.ru
 DOMAIN-SUFFIX,gencraft.com
