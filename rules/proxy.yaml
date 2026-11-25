@@ -1,8 +1,8 @@
 # ----------------------------------------
 # NAME:        Proxy
-# UPDATED:     24 Nov 2026 05:41 UTC
-# TOTAL:       26249
-# DOMAIN:      26237
+# UPDATED:     25 Nov 2026 04:44 UTC
+# TOTAL:       26254
+# DOMAIN:      26242
 # IP-RELATED:  12
 # HOMEPAGE:    https://github.com/akaspyrean/external
 # ----------------------------------------
@@ -4809,6 +4809,7 @@ payload:
   - "DOMAIN-SUFFIX,cabletvdirectv.com"
   - "DOMAIN-SUFFIX,cachefly.com"
   - "DOMAIN-SUFFIX,cachefly.net"
+  - "DOMAIN-SUFFIX,cachix.org"
   - "DOMAIN-SUFFIX,cacnw.com"
   - "DOMAIN-SUFFIX,cactusvpn.com"
   - "DOMAIN-SUFFIX,cad-mep.com"
@@ -5970,6 +5971,7 @@ payload:
   - "DOMAIN-SUFFIX,coursera.community"
   - "DOMAIN-SUFFIX,coursera.help"
   - "DOMAIN-SUFFIX,coursera.org"
+  - "DOMAIN-SUFFIX,courses.myecnu.org"
   - "DOMAIN-SUFFIX,covenantswatch.org.tw"
   - "DOMAIN-SUFFIX,coverartarchive.org"
   - "DOMAIN-SUFFIX,covid19-rx.org"
@@ -8556,10 +8558,12 @@ payload:
   - "DOMAIN-SUFFIX,fastlane.ci"
   - "DOMAIN-SUFFIX,fastlane.tools"
   - "DOMAIN-SUFFIX,fastly-edge.com"
+  - "DOMAIN-SUFFIX,fastly-insights.com"
   - "DOMAIN-SUFFIX,fastly-terrarium.com"
   - "DOMAIN-SUFFIX,fastly.com"
   - "DOMAIN-SUFFIX,fastly.io"
   - "DOMAIN-SUFFIX,fastly.net"
+  - "DOMAIN-SUFFIX,fastlydns.net"
   - "DOMAIN-SUFFIX,fastlylabs.com"
   - "DOMAIN-SUFFIX,fastlylb.net"
   - "DOMAIN-SUFFIX,fastpic.ru"
@@ -23733,6 +23737,7 @@ payload:
   - "DOMAIN-SUFFIX,viu.tv"
   - "DOMAIN-SUFFIX,vivaldi.com"
   - "DOMAIN-SUFFIX,vivaxnxx.com"
+  - "DOMAIN-SUFFIX,vivox.com"
   - "DOMAIN-SUFFIX,vivthomas.com"
   - "DOMAIN-SUFFIX,vixen.com"
   - "DOMAIN-SUFFIX,vixengroup.com"
